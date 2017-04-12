@@ -1,0 +1,18 @@
+{% include header.html %}
+
+<div class="hero">
+  <div class="navbar">
+    <div class="name"><a href="/">Moby</a></div>
+    <div class="actions">
+      {% include links.html %}
+    </div>
+  </div>
+  <p class="definition"><strong>Moby</strong><br> - a collaborative project for the container ecosystem to assemble container-based systems</p>
+</div>
+<div class="content">
+  <div class="wrapper-details">
+      {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}
