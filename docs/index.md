@@ -8,9 +8,7 @@ layout: home
 * [The Moby Project is announced at DockerCon 2017](https://blog.docker.com/2017/04/introducing-the-moby-project/)
 
 ## About Moby
-
-Moby is an open project created by Docker to advance the software containerization movement.
-It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms.
+Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms.
 
 ![Moby collaboration](/images/moby-collaboration.png "Moby collaboration")
 
@@ -56,3 +54,7 @@ Moby is NOT recommended for:
 - Application developers looking for an easy way to run their applications in containers. We recommend Docker CE instead.
 - Enterprise IT and development teams looking for a ready-to-use, commercially supported container platform. We recommend Docker EE instead.
 - Anyone curious about containers and looking for an easy way to learn. We recommend the docker.com website instead.
+
+## Getting started
+
+You can get started with Moby by running some of the examples assemblies in the [LinuxKit GitHub repository](https://github.com/linuxkit/linuxkit/tree/master/examples).
