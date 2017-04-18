@@ -12,6 +12,8 @@ layout: home
 Moby is an open project created by Docker to advance the software containerization movement.
 It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms.
 
+![Moby collaboration](/images/moby-collaboration.png "Moby collaboration")
+
 ## Overview
 
 At the core of Moby is a framework to assemble specialized container systems. It provides:
