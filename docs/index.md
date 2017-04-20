@@ -5,11 +5,13 @@ layout: home
 
 ## News
 
-* [Moby and Docker](/moby-and-docker/)
 * [The Moby Project is announced at DockerCon 2017](https://blog.docker.com/2017/04/introducing-the-moby-project/)
 
 ## About Moby
+
 Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms.
+
+Going forward, Docker will be assembled using Moby, see [Moby and Docker](#moby-and-docker) for more details.
 
 ![Moby collaboration](/images/moby-collaboration.png "Moby collaboration")
 
@@ -59,3 +61,17 @@ Moby is NOT recommended for:
 ## Getting started
 
 You can get started with Moby by running some of the examples assemblies in the [LinuxKit GitHub repository](https://github.com/linuxkit/linuxkit/tree/master/examples).
+
+## Moby and Docker
+
+Docker is, and will remain, a open source product that lets you build, ship and run containers. It is staying exactly the same from a user's perspective. Users can download Docker from the [docker.com](https://www.docker.com/) website.
+
+Work has been ongoing to break Docker into modular components for some time, with runc and containerd as examples. Containerd for example has been donated to the CNCF. We are now completing this work with the goal being that the monolithic docker repo eventually ceases to exist, instead being assembled from a set of components.
+
+Moby is a project which provides a "Lego set" of dozens of components, the framework for assembling them into custom container-based systems, and a place for all container enthusiasts to experiment and exchange ideas.
+
+Docker the product will be assembled from components that are packaged by the Moby project.
+
+The Moby project provides a command-line tool called moby which assembles components. Currently it assembles bootable OS images, but soon it will also be used by Docker for assembling Docker out of components, many of which will be independent projects.
+
+As the Docker Engine continues to be split up into more components the Moby project will also be the home for those components until a more appropriate location is found.
