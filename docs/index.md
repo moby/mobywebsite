@@ -5,6 +5,7 @@ layout: home
 
 ## News
 
+* [Moby and Docker](/moby-and-docker/)
 * [The Moby Project is announced at DockerCon 2017](https://blog.docker.com/2017/04/introducing-the-moby-project/)
 
 ## About Moby
