@@ -64,7 +64,7 @@ You can get started with Moby by running some of the examples assemblies in the 
 
 ## Moby and Docker
 
-Docker is, and will remain, a open source product that lets you build, ship and run containers. It is staying exactly the same from a user's perspective. Users can download Docker from the [docker.com](https://www.docker.com/) website.
+Docker is, and will remain, an open source product that lets you build, ship and run containers. It is staying exactly the same from a user's perspective. Users can download Docker from the [docker.com](https://www.docker.com/) website.
 
 Work has been ongoing to break Docker into modular components for some time, with runc and containerd as examples. Containerd for example has been donated to the CNCF. We are now completing this work with the goal being that the monolithic docker repo eventually ceases to exist, instead being assembled from a set of components.
 
