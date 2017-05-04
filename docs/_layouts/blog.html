@@ -1,0 +1,18 @@
+{% include header.html %}
+
+<div class="hero">
+  <div class="navbar">
+    <div class="name"></div>
+    <div class="actions">
+      {% include links.html %}
+    </div>
+  </div>
+    <p class="definition"><strong>Blog</strong><br><br>Updates and articles<br>from various projects.</p>
+</div>
+<div class="content">
+  <div class="wrapper-details">
+      {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}
