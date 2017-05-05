@@ -5,7 +5,7 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 incremental: true
-permalink: /:categories/:title
+permalink: pretty
 safe: false
 lsi: false
 exclude: [README.md]
