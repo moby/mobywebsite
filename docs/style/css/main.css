@@ -142,7 +142,7 @@ td, tr, th {
   padding: 3px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .container {
   max-width: 900px;
@@ -300,6 +300,9 @@ h1, h2, h3, h4, h5, h6 {
   -moz-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 .content.blue {
   background-color: #364449;
@@ -426,12 +429,9 @@ p {
 }
 h2 {
   font-size: 1.4rem;
-  font-weight: 500;
-  padding: 3rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  font-weight: 800;
+  padding: 3rem 0 0;
   margin: 2rem 0;
-  text-transform: uppercase;
-  text-align: center;
   color: rgba(0, 0, 0, 0.7);
 }
 h3 {
@@ -439,11 +439,10 @@ h3 {
   font-weight: 500;
   color: rgba(0, 0, 0, 0.81);
   margin: 4rem 0 1rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-weight: 700;
 }
 a {
-  color: #96090d;
+  color: #058def;
   text-decoration: none;
 }
 ol li {
@@ -461,8 +460,7 @@ a:hover {
   color: #5e0608;
 }
 body {
-  font-family: "Helvetica Neue", Segoe UI, Arial, "Lucida Grande", sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;  -webkit-font-smoothing: antialiased;
   font-size: 14px;
   color: #254451;
   background-color: #e7f4f9;
