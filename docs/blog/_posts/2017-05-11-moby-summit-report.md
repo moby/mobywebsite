@@ -31,5 +31,5 @@ The 3rd part of the summit consisted in birds of feather session around each com
 
 Learn more about the Moby Project:
 - Follow [@moby on twitter](https://twitter.com/moby)
-- Register for the next [Moby Summit](https://www.eventbrite.com/e/moby-summit-tickets-34483396768)at Docker HQ on 6/19
+- Register for the next [Moby Summit](https://www.eventbrite.com/e/moby-summit-tickets-34483396768) at Docker HQ on 6/19
 - Join the conversation on [Slack #Moby-project](dockr.ly/community)
