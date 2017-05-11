@@ -2,7 +2,7 @@
 title: Moby Summit at DockerCon 2017-05-11
 layout: post
 author: Victor Coisne
-author-url: https://github.com/moby/moby/blob/master/reports/2017-05-11.md
+author-url: https://github.com/moby/moby/blob/master/reports/2017-05-11-moby-summit-report.md
 ---
 
 ### Moby Summit videos from DockerCon
