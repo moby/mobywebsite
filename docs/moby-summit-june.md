@@ -1,6 +1,6 @@
-### Moby Summit
+### Moby Summit  6/19/17
 
-The Moby Summit is a small collaborative event taking place on _Monday 6/19/17 at Docker HQ in San Francisco_. This summit is for advanced container users who are actively maintaining, contributing or generally involved in the design and development of the Moby Project and it's components: LinuxKit, Infrakit, SwarmKit, HyperKit, DataKit, VPNKit, Notary, libnetwork, etc.
+The Moby Summit is a small collaborative event taking place on **Monday 6/19/17 at Docker HQ in San Francisco**. This summit is for advanced container users who are actively maintaining, contributing or generally involved in the design and development of the Moby Project and it's components: LinuxKit, Infrakit, SwarmKit, HyperKit, DataKit, VPNKit, Notary, libnetwork, etc.
 
 This will be a great opportunity for everyone attending the summit to learn, hack, collaborate and give feedback to drive the architectural decisions and roadmap behind the moby project and it's components. 
 
