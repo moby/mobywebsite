@@ -6,7 +6,7 @@ The Moby website is built using Jekyll and published to Github pages.
 
 ## Developing locally
 
-In order to build and test locally:
+In order to build and test locally, run this command in the docs directory:
 ```
 docker run -ti -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 ```
