@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="787px" height="242px" viewBox="0 0 787 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-5" transform="translate(269.000000, 39.000000)">
+                <text id="An-open-framework-to" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" line-spacing="32" fill="#B7BBBE">
+                    <tspan x="0" y="115">An open framework to assemble specialized container </tspan>
+                    <tspan x="0" y="147">systems without reinventing the wheel.</tspan>
+                </text>
+                <text id="Moby" font-family="Geomanist-Bold, Geomanist" font-size="78" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0" y="75">Moby</tspan>
+                </text>
+                <text id="project" font-family="Geomanist-Light, Geomanist" font-size="78" font-weight="300" fill="#FFFFFF">
+                    <tspan x="223" y="75">project</tspan>
+                </text>
+            </g>
+            <path d="M122,229 C61.2486775,229 12,179.751322 12,119 C12,58.2486775 61.2486775,9 122,9 C182.751322,9 232,58.2486775 232,119 C232,179.751322 182.751322,229 122,229 Z M26.1327939,160.991775 L26.1327939,160.991775 C39.3504767,191.124716 66.3586249,213.83485 99.1716151,221.136555 C106.254334,208.866373 112.646916,195.881676 118.323519,182.198817 C138.0405,182.743457 180.760625,182.198817 202.120688,140.806206 C202.668382,139.716927 203.763769,137.538368 207.597627,129.368774 L209.788403,125.011657 L197.739136,117.931342 C184.594482,109.217108 153.923623,105.94927 130.372785,110.306387 C127.634315,87.9761624 115.037355,68.9137756 92.5819049,51.4853076 L79.9849449,42.7710736 L71.2218423,55.8424246 C60.267964,72.1816133 54.7910249,95.6011171 56.4341066,117.386702 C56.9818005,125.011657 59.7202701,139.172287 67.9356788,151.154359 C60.1243563,155.297165 45.8762036,160.91711 26.1327939,160.991775 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

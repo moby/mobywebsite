@@ -1,0 +1,43 @@
+/*
+*
+* navigation
+*
+*/
+.primary-nav {
+    background-color: transparent;
+    height: 64px;
+    width: 100%;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    ul li {
+        display: inline;
+        padding: 0 24px 0 0;
+        a {
+            font-size: 14px;
+            line-height: 1.71;
+            text-align: left;
+            color: #cfd2d3;
+            text-decoration: none;
+        }
+    }
+}
+.nav-fill {
+    background-color: #101e26;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.primary-nav-filled {
+    background-color: #101e26;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    height: 64px;
+    width: 100%;
+}
+
+
+.primary-links {
+    float: right;
+    width: 700px;
+}
+
+
+

@@ -1,0 +1,327 @@
+/*
+*
+* layout
+*
+*/
+
+.brand img {
+    height: 40px;
+    width: 180px;
+    margin: 5px 0;
+    transition: all 400ms ease-in;
+}
+
+.brand-hidden {
+    display: none;
+    transition: all 400ms ease-in;
+}
+
+.moby {
+    fill: #fff;
+    padding: 5px;
+}
+
+.chart {
+    max-width: 900px;
+    padding: 50px 0;
+    margin: 0 auto;
+    // opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+/*
+*
+* Feature hero banner ***********************************************************************
+*
+*/
+.feature {
+    // background-image: $bg-feature;
+    background-color: #101e26;
+    background-image: linear-gradient(to bottom, #2f3d45, #101e26);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    height:100vh;
+    position: relative;
+    & .down {
+        width: 50px;
+        margin: 0 auto;
+        // position: absolute;
+        // bottom: 0;
+    }
+}
+.temp {
+    margin: 100px auto;
+    height: 472px;
+    width: 787px;
+    transition: all 400ms ease-in;
+    opacity: 1;
+}
+.temp-hide {
+    transition: all 400ms ease-out;
+    opacity: 0;
+}
+.hide {
+    display: none;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+/*
+*
+* Main Header ***********************************************************************
+*
+*/
+header {
+    background-color: #101e26;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 1029;
+}
+
+/*
+*
+* Section Headers ***********************************************************************
+*
+*/
+
+section {
+    padding: 3rem;
+    float: left;
+    width: 100%;
+}
+
+.section-talk-to-us {
+    text-align: center;
+}
+
+.section-usage {
+    background-image: linear-gradient(to bottom, #2f3d45, #101e26);
+    padding: 100px 0 150px;
+    ul {
+      ist-style-type: circle;
+    }
+}
+.section-city {
+    background: url(../images/sf.png) no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.header-blog,
+.header-community,
+.header-projects {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.header-blog {
+    background-image: url("../images/blog.jpg");
+    height: 480;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-community {
+    background: url("../images/community.jpg") no-repeat center center;
+}
+
+.header-projects {
+    background: url("../images/projects.jpg") no-repeat center center;
+}
+
+.strip {
+    background: rgba(44, 58, 64, 0.33);
+    width: 100%;
+    min-height: 300px;
+    float: left;
+}
+
+.social-icon {
+    width: 125px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+
+
+.section-calendar {}
+
+.calendar {
+    width: 100%;
+    height: 400px;
+    padding: 62px
+}
+
+.twitter {
+    border-bottom: 1px solid #ccc;
+    width: 650px;
+    height: 700px;
+    overflow: scroll;
+    margin: 0 auto;
+}
+
+/*********************** project repos *********************/
+
+.search-repos {
+    padding: 0 20px;
+    padding-bottom: 50px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.label {
+    font-family: Geomanist;
+    font-size: 20px;
+    font-weight: 500;
+    color: #576167;
+}
+
+input.form-control.mr-sm-2 {
+    width: 100%;
+    height: 44px;
+    border-radius: 2px;
+    background-color: #f3f4f4;
+    border: solid 1px rgba(16, 30, 38, 0.2);
+}
+
+.repository {
+    background: #f1f1f1;
+    margin: 0 0 10px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 10em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    & .title {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #576167;
+    }
+}
+
+.icon {
+    width: 100px;
+    padding: 10px;
+    height: 123px;
+}
+
+i.fa {
+    font-size: 24px;
+}
+
+i.fa.fa-chevron-down {
+    color: #fff;
+}
+
+
+/*********************** community gallery *********************/
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.gradient-bar {
+    background-image: linear-gradient(to right, #101e26, #ffffff 51%, #101e26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    // opacity: 0.05;
+    margin: 100px 0 0 0;
+    display: none;
+}
+
+.post-meta {
+    font-size: 16px;
+    color: #101e26;
+}
+li.posts {
+    margin: 40px 0 6px 0;
+}
+li.posts span {
+    color: 70787d;
+    font-size: 16px;
+}
+
+/********************** xtras *********************/
+
+.album {
+    min-height: 50rem;
+    /* Can be removed; just added for demo purposes */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+}
+
+.card-text {
+    font-size: 85%;
+}
+
+
+/******************************************** bonus ****************************************/

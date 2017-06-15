@@ -22,3 +22,9 @@ defaults:
       type: "pages"
     values:
       layout: default
+
+sass:
+  sass_dir:          _scss
+  style:            :compressed
+
+exclude: [node_modules, gulpfile.js]

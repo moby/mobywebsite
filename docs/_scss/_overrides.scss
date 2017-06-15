@@ -1,0 +1,55 @@
+/*
+*
+* bootstrap overrides
+*
+*/
+
+a:not([href]):not([tabindex]) {
+    text-decoration: none;
+    color: #fff;
+}
+
+.modal-content {
+	background: #000;
+}
+.modal-header {
+	border-bottom: 1px solid #2d2929;
+}
+.modal-footer {
+	border-top: 1px solid #2d2929;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #101e26;
+    opacity: .8;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.47)!important;
+    color: #fff;
+    &:focus {
+        background: #fff;
+    }
+}
+/*
+*
+* temporary overrides
+*
+*/
+
+p.timeline-Tweet-text {
+    font-size: 12px!important;
+}
+
+ul.navbar-nav.mr-auto.justify-content-end  {
+    padding: 10px;
+}
+
+.twitter {
+    border-bottom: 1px solid #ccc;
+    width: 650px;
+    height: 700px;
+    overflow: scroll;
+    margin: 0 auto;
+}

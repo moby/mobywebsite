@@ -1,16 +1,21 @@
-{% include header.html %}
+{% include head.html %}
+<body>
+{% include header-sm.html %}
 
-<div class="hero">
-  <div class="navbar">
-    <div class="name"></div>
-    <div class="actions">
-      {% include links.html %}
+<div class="header-blog">
+  <div class="banner-text">
+    <h1>Blog</h1>
+    <p>Updates and articles from various projects.</p>
+    <div class="form-group row">
+	  <div class="col-12">
+	    <input class="form-control" type="search" value="Carla is awesome" id="mobyisthebest">
+	  </div>
+	</div>
     </div>
   </div>
-    <p class="definition"><strong>Blog</strong><br><br>Updates and articles<br>from various projects.</p>
-</div>
-<div class="content">
-  <div class="wrapper-details">
+
+<div class="container">
+  <div class="blog-content">
       {{ content }}
   </div>
 </div>

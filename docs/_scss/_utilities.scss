@@ -1,0 +1,72 @@
+/*
+*
+* utilities
+*
+*/
+
+.block {
+    // padding: $padding;
+    padding: 20px 50px 25px 0px;
+}
+
+.block-alt {
+    padding: 100px 0 0 0;
+}
+
+.block-alternate {
+    padding: 100px 0 100px 0;
+}
+
+.block-vertical {
+    min-height: 600px;
+    padding: 50px 85px 50px 40px;
+    &:first-of-type {
+        min-height: 600px;
+        border-right: 1px solid #000;
+    }
+}
+
+.post-meta {
+    padding: 20px 0 20px 0;
+}
+
+.contrib-1,
+.contrib-2 {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+.show {
+    display: block;
+    opacity: 1;
+    transition: all 500ms ease-in;
+}
+body.ian {
+    background: #000;
+}
+
+
+.center-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 24em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.content-item--fixed {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 50%;
+}
