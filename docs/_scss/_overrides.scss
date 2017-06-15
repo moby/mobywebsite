@@ -28,8 +28,11 @@ a:not([href]):not([tabindex]) {
 .form-control {
     background-color: rgba(255, 255, 255, 0.47)!important;
     color: #fff;
+    width: 460px;
+    margin: 0 auto;
     &:focus {
         background: #fff;
+        border-color: #464a4c;
     }
 }
 /*

@@ -40,42 +40,17 @@ p {
     line-height: 32px;
 }
 
-body.home {
-  h1,
-  h2,
-  h3 {
-    color: #fff;
-  }
-  ul,
-  li {
-    font-family: OpenSans;
-    font-size: 14px;
-    line-height: 1.86;
-    text-align: left;
-    color: #cfd2d3;
-    padding: 0 0 20px 0;
-  }
-  .section-city h3 {
-    color: #101e26;
-    font-size: 36px;
-  }
-  p.alt {
-      font-size: 16px;
-      line-height: 1.75;
-      text-align: left;
-      color: #27343b;
-  }
-}
 
 .banner-text {
-  width: 600px;
+  width: 620px;
   h1 {
     color: #fff;
   }
   p {
-    color: #fff;
+    color: #cfd2d3;
     font-size: 18px;
     text-align: center;
+    line-height: 32px;
   }
 }
 /************ type **************/

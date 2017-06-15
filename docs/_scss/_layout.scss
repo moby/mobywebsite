@@ -31,6 +31,55 @@
 }
 /*
 *
+* Landing page specific ***********************************************************************
+*
+*/
+body.home {
+  background: $bg-body-home;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff;
+  }
+  p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  p.lead {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  h3 {
+    // color: #cfd2d3;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .section-usage ul,
+  .section-usage li {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: left;
+    color: #cfd2d3;
+    padding: 0 0 20px 0;
+  }
+
+// .section-usage h3 {
+//      color: #cfd2d3;
+// }
+  p.alt {
+      font-size: 16px;
+      line-height: 1.75;
+      text-align: left;
+      color: #27343b;
+  }
+}
+
+/*
+*
 * Feature hero banner ***********************************************************************
 *
 */
