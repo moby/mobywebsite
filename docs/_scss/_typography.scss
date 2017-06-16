@@ -12,7 +12,7 @@ h5,
 h6 {
     color: $headings;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 h2 {
@@ -22,6 +22,24 @@ h2 {
 
 h3 {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 375px) {
+  h2 {
+    // font-size: $h2;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  body.home p.lead {
+    background: red;
+    font-size: 12px!important;
+  }
 }
 
 ul li {
@@ -40,6 +58,11 @@ p {
     line-height: 32px;
 }
 
+.heading-center {
+  padding: 100px;
+  text-align: center;
+  font-weight: bold;
+}
 
 .banner-text {
   width: 620px;

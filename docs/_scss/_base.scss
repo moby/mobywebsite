@@ -34,49 +34,43 @@ a {
     }
 }
 
-table {
-    font-size: 14px;
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
+/*
+*
+* Main Header ***********************************************************************
+*
+*/
+header {
+    background-color: #101e26;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 1029;
 }
 
-table td, table th {
-    padding: .75rem;
-    vertical-align: top;
-    border-top: 1px solid #eceeef;
-}
 
 /*
 *
-* Content ***********************************************************************
+* Sections + Content ***********************************************************************
 *
 */
+
+section {
+    padding: 3rem;
+    float: left;
+    width: 100%;
+}
 
 .content {
     padding: 90px 0;
     min-height: 800px;
 }
 
-.blog-content {
-    padding: 60px 0;
-    min-height: 800px;
-    max-width: 620px;
-    margin: 0 auto;
-}
-
-.blog-content-post {
-    padding: 90px 0;
-    min-height: 800px;
-    max-width: 620px;
-    margin: 0 auto;
-}
 
 /*
 *
 * Footer ***********************************************************************
 *
 */
+
 body.home .footer-links li {
   display: inline;
 }
@@ -84,7 +78,7 @@ body.home .footer-links li {
     background: #101e26;
     height: 70px;
     width: 100%;
-    padding: 2rem;
+    padding: 1.6rem 0 1rem 0;
 
     .copyright {
       // padding: 2rem;

@@ -3,13 +3,13 @@ title: Moby
 layout: home
 ---
 
-<div id="what" class="chart-container">
+<!-- <div id="what" class="chart-container">
    <div class="strip">
       <div class="chart">
          {% include chart.html %}
       </div>
    </div>
-</div>
+</div> -->
 
 <section class="about">
   <div class="container">

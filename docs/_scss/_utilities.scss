@@ -26,14 +26,6 @@
     }
 }
 
-.post-meta {
-    padding: 20px 0 20px 0;
-}
-
-.contrib-1,
-.contrib-2 {
-    display: none;
-}
 
 .center {
     text-align: center;
@@ -43,10 +35,6 @@
     opacity: 1;
     transition: all 500ms ease-in;
 }
-body.ian {
-    background: #000;
-}
-
 
 .center-content {
     display: -webkit-box;
@@ -69,4 +57,20 @@ body.ian {
     -ms-flex: none;
     flex: none;
     max-width: 50%;
+}
+.temp {
+    margin: 100px auto;
+    height: 472px;
+    width: 787px;
+    transition: all 400ms ease-in;
+    opacity: 1;
+}
+.temp-hide {
+    transition: all 400ms ease-out;
+    opacity: 0;
+}
+.hide {
+    display: none;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
