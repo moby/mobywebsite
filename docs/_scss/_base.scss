@@ -15,7 +15,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     // padding-top: 60px;
-    height: 100%;
+    // height: 100%;
 }
 
 img {
@@ -60,7 +60,7 @@ section {
 }
 
 .content {
-    padding: 90px 0;
+    padding: 50px 0;
     min-height: 800px;
 }
 
@@ -71,14 +71,19 @@ section {
 *
 */
 
-body.home .footer-links li {
-  display: inline;
-}
 .footer {
-    background: #101e26;
-    height: 70px;
-    width: 100%;
+    background: $bg-nav;
+    height: $nav-height;
+    width: $full-width;
     padding: 1.6rem 0 1rem 0;
+    display: flex;
+
+    ul {
+        display: inline;
+        li {
+
+        }
+    }
 
     .copyright {
       // padding: 2rem;

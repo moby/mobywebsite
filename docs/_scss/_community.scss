@@ -3,6 +3,16 @@
 * community
 *
 */
+.header-community {
+    background: url("../images/community.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+
 .section-calendar {
     width: 100%;
     float: left;
@@ -13,6 +23,20 @@
     padding: 26px 0 20px 0;
 }
 
+.social-icon {
+    width: 125px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+
+.twitter {
+    border-bottom: 1px solid #ccc;
+    width: 650px;
+    height: 700px;
+    overflow: scroll;
+    margin: 0 auto;
+}
 
 /*
 *

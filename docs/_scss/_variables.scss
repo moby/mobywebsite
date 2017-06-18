@@ -9,11 +9,14 @@ $bg-body-home: #101e26;
 $bg-body: #fff;
 $bg-feature: linear-gradient(132deg, rgba(255, 255, 255, 0.1), rgba(22, 35, 43, 0));
 $bg-subheader: #f1f1f1;
-$bg-nav: #1488C6;
-$nav:       #1594cd;
+$bg-nav: #101e26;
+$nav-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+$nav-links: #cfd2d3;
+$nav-height:       64px;
 $bg-footer: #fff;
 
 $padding: 80px;
+$full-width: 100%;
 
 /*
 *
@@ -24,6 +27,7 @@ $padding: 80px;
 $font: 'Open Sans', sans-serif;
 $base-font-size: 16px;
 $base-font-color: #9fa5a8;
+$bold: bold;
 
 $headings: #000;
 
@@ -32,6 +36,8 @@ $h2: 36px;
 $primary-links: #2089C4;
 /*
 *
-* layout
+* colors
 *
 */
+
+$white: #fff;

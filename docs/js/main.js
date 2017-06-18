@@ -2,22 +2,22 @@ $(window).scroll(function() {
     if ($(this).scrollTop() > 1){  
         $('header').addClass("sticky");
         // $('.primary-nav').addClass("nav-fill");
-        $('.temp').addClass("temp-hide");
-        $('.brand-hidden').addClass("show");
+        $('.feature').addClass("hide");
+        $('.brand').addClass("show");
          // $('.chart').removeClass("hide");
     }
     else{
         $('header').removeClass("sticky");
         // $('.primary-nav').removeClass("nav-fill");
-        $('.temp').removeClass("temp-hide");
-        $('.brand-hidden').removeClass("show");
+        $('.feature').removeClass("hide");
+        $('.brand').removeClass("show");
         // $('.chart').addClass("show");
     }
 });
 
 $("#down").click(function() {
     $('html, body').animate({
-        scrollTop: parseInt($("#what").offset().top-100)
+        scrollTop: parseInt($("#chart").offset().top-100)
     }, 1000);
 });
 

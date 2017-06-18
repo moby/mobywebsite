@@ -1,19 +1,34 @@
-<header class="header">
-    <nav class="navbar navbar-toggleable-md fixed-top primary-nav nav-fill">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="brand-hidden">
-                <a href="#" id="up"><img src="/images/moby.svg"></a>
-            </div>
-            <div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    {% include links.html %}
-                </div>
+<nav class="primary-nav-filled navbar fixed-top navbar-toggleable-md">
+<div class="container">
+ <a class="brand hide" href="/"><img src="/images/moby.svg"></a>
+  <div class="collapse navbar-collapse" id="docker-navbar">
+      {% include links.html %}
+  </div>
+</div>
+</nav>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#docker-navbar" aria-controls="docker-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<section class="feature-container">
+    <div class="feature">
+    <img src="/images/message.svg">
+<!--     <div class="row">
+        <div class="col">
+            <div class="moby">
+                <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M110 220C49.25 220 0 170.75 0 110S49.25 0 110 0s110 49.25 110 110-49.25 110-110 110zm-96-68.022C27.242 182.05 54.3 204.713 87.176 212c7.096-12.245 13.5-25.203 19.188-38.858 19.754.544 62.554 0 83.954-41.308.55-1.087 1.646-3.26 5.487-11.414l2.195-4.348-12.072-7.066c-13.17-8.696-43.898-11.957-67.493-7.61-2.743-22.284-15.364-41.307-37.86-58.7L67.952 34l-8.78 13.045C48.2 63.35 42.714 86.722 44.36 108.463c.55 7.61 3.292 21.74 11.523 33.698-7.825 4.136-22.1 9.744-41.88 9.818z" fill-rule="evenodd" />
+                </svg>
             </div>
         </div>
-    </nav>
-
+        <div class="col">
+            <h1 class="feature-heading"> Moby Project</h1>
+            <p class="lead text-center">An open framework to assemble specialized container systems without reinventing the wheel.</p>
+        </div>
+    </div> -->
+        <div class="down">
+            <a href="#" id="down">
+            <img src="images/caret.svg">
+            </a>
+        </div>
     </div>
-</header>
+</section>

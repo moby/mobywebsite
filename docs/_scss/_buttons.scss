@@ -60,31 +60,3 @@ a.button.outline-btn {
 * Secondary ***********************************************************************
 *
 */
-.secondary-btn {
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-}
-/*
-*
-* outline ***********************************************************************
-*
-*/
-.outline-btn {
-    background: #fff;
-    border: 1px solid;
-    border-color: #0087C8;
-    text-decoration: none;
-    margin: 0;
-}
-
-.outline-btn:hover,
-.primary-btn:hover,
-.secondary-btn:hover {
-    opacity: 0.8;
-}
-
-.outline-btn:hover {
-    color: #1488C6;
-}

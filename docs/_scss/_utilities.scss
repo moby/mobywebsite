@@ -4,6 +4,16 @@
 *
 */
 
+.hide {
+    transition: all 200ms ease-out;
+    opacity: 0;
+}
+.show {
+    // display: block;
+    opacity: 1;
+    transition: all 200ms ease-in;
+}
+
 .block {
     // padding: $padding;
     padding: 20px 50px 25px 0px;
@@ -30,11 +40,7 @@
 .center {
     text-align: center;
 }
-.show {
-    display: block;
-    opacity: 1;
-    transition: all 500ms ease-in;
-}
+
 
 .center-content {
     display: -webkit-box;
@@ -65,12 +71,8 @@
     transition: all 400ms ease-in;
     opacity: 1;
 }
-.temp-hide {
-    transition: all 400ms ease-out;
-    opacity: 0;
-}
-.hide {
-    display: none;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
+// .hide {
+//     display: none;
+//     -webkit-transition: all 0.4s ease;
+//     transition: all 0.4s ease;
+// }

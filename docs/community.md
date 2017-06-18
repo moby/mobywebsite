@@ -68,14 +68,14 @@ layout: community
   </div>
 </section>
 
-<section class="yout-playlist">
+<!-- <section class="yout-playlist">
   <div class="container">
     <div class="row">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLkA60AVN3hh_eRYZIlUEYQFNN69iulTAk" frameborder="0" allowfullscreen></iframe>   
     </div>
   </div>
 </section>  
-
+ -->
 
 <section class="section-community">
    <div class="container">
