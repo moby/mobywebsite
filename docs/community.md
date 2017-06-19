@@ -44,23 +44,51 @@ layout: community
             </a>
         </div>
         <div class="col">
-          <a href="https://github.com/chungers" target="_blank" class="flex-item">
+          <a href="https://github.com/justincormack" target="_blank" class="flex-item">
               <figure class="u-6">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> David Chung</figcaption>
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Justin cormack</figcaption>
               </figure>
             </a>
         </div>
         <div class="col">
-          <a href="https://github.com/chungers" target="_blank" class="flex-item">
+          <a href="https://github.com/cyli" target="_blank" class="flex-item">
               <figure class="u-7">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> David Chung</figcaption>
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Ying Li</figcaption>
               </figure>
             </a>
         </div>
         <div class="col">
-          <a href="https://github.com/chungers" target="_blank" class="flex-item">
+          <a href="https://github.com/endophage" target="_blank" class="flex-item">
               <figure class="u-8">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> David Chung</figcaption>
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> David Lawrence</figcaption>
+              </figure>
+            </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/tianon" target="_blank" class="flex-item">
+              <figure class="u-8">
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Tianon Gravi</figcaption>
+              </figure>
+            </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/AkihiroSuda" target="_blank" class="flex-item">
+              <figure class="u-8">
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Akihiro Suda</figcaption>
+              </figure>
+            </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/Aestesp" target="_blank" class="flex-item">
+              <figure class="u-8">
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Phil Estes</figcaption>
+              </figure>
+            </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/hqhq" target="_blank" class="flex-item">
+              <figure class="u-8">
+                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Qiang Huang</figcaption>
               </figure>
             </a>
         </div>
