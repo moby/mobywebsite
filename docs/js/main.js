@@ -3,11 +3,13 @@ $(window).scroll(function() {
         $('header').addClass("sticky");
         $('.feature').addClass("hide");
         $('.brand').addClass("show");
+        $('.primary-nav').addClass("primary-nav-filled");
     }
     else{
         $('header').removeClass("sticky");
         $('.feature').removeClass("hide");
         $('.brand').removeClass("show");
+        $('.primary-nav').removeClass("primary-nav-filled");
     }
 });
 

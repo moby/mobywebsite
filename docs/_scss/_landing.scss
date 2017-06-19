@@ -40,7 +40,12 @@ body.home {
       color: #27343b;
   }
 }
-
+section.about {
+    padding: 3rem 3rem 10rem 3rem;
+    p {
+      color: #b7bbbe;
+    }
+}
 .gradient-bar {
     background-image: linear-gradient(to right, #101e26, #2f3d45 51%, #101e26);
     display: flex;

@@ -77,15 +77,25 @@ section {
         li {
             display: inline;
             a {
-                color: fff;
-
+                color: #cfd2d3;
+                text-decoration: none;
+                font-size: 14px;
+                padding: 0 10px 10px 0;
+                }
             }
         }
-    }
+       i.fa {
+            font-size: 20px;
+        }
     .copyright {
       font-size: 12px;
       color: #9fa5a8;
       width: 500px;
       float: left;
+      padding: .5rem 0;
     }
+}
+.footer-links {
+    float: right;
+    padding: 0 1rem 0 0;
 }

@@ -8,6 +8,8 @@
     box-shadow: none;
     // height: $nav-height;
     width: $full-width;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
     ul li {
         display: inline;
         padding: 0 24px 0 0;
