@@ -1,0 +1,73 @@
+/*
+*
+* layout
+*
+*/
+a.brand {
+    width: 200px;
+    float: left;
+}
+
+.brand img {
+    height: 40px;
+    width: 180px;
+    margin: 5px 0;
+    transition: all 400ms ease-in;
+}
+
+.brand-hidden {
+    display: none;
+    transition: all 400ms ease-in;
+}
+
+/*
+*
+* Section Headers ***********************************************************************
+*
+*/
+.header-blog {
+    background-image: url("../images/blog.jpg");
+    height: 480;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-content {
+    padding: 40px 0;
+    min-height: 800px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.blog-content-post {
+    padding: 90px 0;
+    min-height: 800px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+.section-talk-to-us {
+    text-align: center;
+}
+
+.header-blog,
+.header-community,
+.header-projects {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-projects {
+    background: url("../images/projects.jpg");
+    height: 480;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

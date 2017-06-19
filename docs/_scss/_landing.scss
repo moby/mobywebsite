@@ -1,0 +1,235 @@
+/*
+*
+* Landing page specific ***********************************************************************
+*
+*/
+body.home {
+  // padding-top: 64px;
+  background: $bg-body-home;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $white;
+    font-weight: $bold;
+  }
+  p.lead {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .section-usage ul,
+  .section-usage li {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: left;
+    color: #cfd2d3;
+    padding: 0 0 20px 0;
+  }
+
+  p.alt {
+      font-size: 16px;
+      line-height: 1.75;
+      text-align: left;
+      color: #27343b;
+  }
+}
+section.about {
+    padding: 3rem 3rem 10rem 3rem;
+    p {
+      color: #b7bbbe;
+    }
+}
+.gradient-bar {
+    background-image: linear-gradient(to right, #101e26, #2f3d45 51%, #101e26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0 0 0;
+    padding: 12px 10px 0px 10px;
+    p {
+      color: #8b9da7;
+    }
+}
+
+.gradient-bar-2 {
+    background-image: linear-gradient(to right, #15232b, #2f3d45 51%, #14222a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0 0 0;
+    padding: 12px 10px 0px 10px;
+    p {
+      color: #8b9da7;
+    }
+}
+
+/*
+*
+* Feature hero banner ***********************************************************************
+*
+*/
+.feature-container {
+    // background-image: $bg-feature;
+    background-color: #101e26;
+    background-image: linear-gradient(to bottom, #2f3d45, #101e26);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    & .down {
+        width: 50px;
+        margin: 100px auto;
+        -webkit-animation-name: pulse;
+        -webkit-animation-duration: 4s;
+        -webkit-animation-iteration-count: infinite;
+    }
+}
+@keyframes pulse {
+    from {
+        opacity:.1;
+    }
+    50% { opacity: .5; }
+    to {
+        opacity:1;
+        // -webkit-box-shadow: 0 0 18px #91bd09;
+    }
+}
+@-webkit-keyframes pulse {
+  from { opacity: .1; }
+  50% { opacity: .5 }
+  to { opacity: 1; }
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.feature {
+    max-width: 800px;
+    margin: 100px auto;
+    webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: 1 0 0;
+    height: 400px;
+}
+
+.moby {
+    fill: #fff;
+    padding: 5px;
+    width: 230px;
+}
+
+/** TODO: refactor this to not target image later **/
+.about {
+  & img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0 10px 0;
+  }
+}
+.strip {
+    background: rgba(44,58,64,0.33);
+    width: 100%;
+    min-height: 300px;
+    margin-top: -347px;
+}
+.chart-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 24em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px;
+  & .chart {
+    webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: 1 0 0;
+    max-width: 900px;
+  }
+}
+// section.about {
+//     padding: 150px 0 50px 0;
+// }
+.section-usage {
+    background-image: linear-gradient(to bottom, #2f3d45, #101e26);
+    padding: 100px 0 150px;
+    ul {
+      ist-style-type: circle;
+    }
+}
+.section-city {
+    background: url(../images/sf.png) no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+    & h3#moby-defines-the-future-in-product-assembly-management {
+      font-size: 36px;
+      line-height: 46px;
+      color: #101e26;
+    }
+}
+
+body.home .footer-links li {
+  display: inline;
+}

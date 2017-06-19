@@ -1,0 +1,31 @@
+// Brand colors
+$swatch-1: #101e26 !default;
+$swatch-2: #999    !default;
+$swatch-3: #666    !default;
+$swatch-4: #fff    !default;
+$swatch-5: #fff    !default;
+$swatch-gray-1:	    #101e26;
+
+.swatch {
+    display: inline-block;
+    width: 17rem;
+    height: 3rem;
+    border-radius: .25rem;
+}
+.swatch-1 {
+	background-color: $swatch-1;
+    border: 1px solid #3e5360;
+}
+
+.swatch-2 {
+	background-color: $swatch-2;
+}
+.swatch-3 {
+	background-color: $swatch-3;
+}
+.swatch-4 {
+	background-color: $swatch-4;
+}
+.swatch-gray-1 {
+	background-color: $swatch-gray-1;
+}

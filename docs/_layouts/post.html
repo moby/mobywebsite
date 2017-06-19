@@ -1,8 +1,15 @@
----
-layout: blog
----
+{% include head.html %}
 
-<span>{{ page.date | date_to_long_string }} by <a href="{{ page.author-url }}">{{ page.author }}</a></span>
-<h2>{{ page.title }}</h2>
-<hr>
-{{ content }}
+{% include header-sm-filled.html %}
+
+<div class="container">
+  <div class="blog-content-post">
+  <div class="post-meta">{{ page.date | date_to_long_string }} by <a href="{{ page.author-url }}">{{ page.author }}</a></div>
+	<h2 class="post-title">{{ page.title }}</h2>
+	   {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}
+
+

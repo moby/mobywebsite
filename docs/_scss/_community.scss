@@ -1,0 +1,114 @@
+/*
+*
+* community
+*
+*/
+.header-community {
+    background: url("../images/community.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+
+.section-calendar {
+    width: 100%;
+    // float: left;
+}
+.calendar {
+    width: 100%;
+    // height: 400px;
+    padding: 26px 0 20px 0;
+}
+
+.social-icon {
+    width: 125px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+
+.twitter {
+    border-bottom: 1px solid #ccc;
+    width: 650px;
+    height: 700px;
+    overflow: scroll;
+    margin: 0 auto;
+}
+.strip-2 {
+    background: #f3f4f4;
+    float: left;
+    width: 100%;
+}
+/*
+*
+* thank you: https://codepen.io/a-urban/pen/nsbLA
+*
+*/
+
+.contributor-grid {
+	user-select: none
+}
+.contributor-grid figure {
+	position: relative;
+	min-width: 200px;
+	height: 150px;
+	margin: 5px;
+	box-shadow: inset 0 -40px 0 0 rgba(0, 0, 0, 0.3);
+	transition: all .2s ease-in-out;
+}
+.contributor-grid figure:hover {
+	box-shadow: inset 0 -150px 0 0 rgba(0, 0, 0, 0.5);
+}
+.contributor-grid figcaption {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #f4f4f4;
+	bottom: 10px;
+	transition: all .2s ease-in-out
+}
+.contributor-grid figure:hover figcaption {
+	bottom: 60px
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch
+}
+.flex-item {
+	flex: 1 0 auto;
+	max-width: 200px;
+}
+
+.contributor-grid figure.u-1 {
+	background: url(/images/gitusers/chungers.png) no-repeat center;
+	background-size: cover
+}
+
+.contributor-grid figure.u-2 {
+	background: url(/images/gitusers/riyazdf.png) no-repeat center;
+	background-size: cover
+}
+
+.contributor-grid figure.u-3 {
+	background: url(/images/gitusers/rn.png) no-repeat center;
+	background-size: cover
+}
+
+.contributor-grid figure.u-4 {
+	background: url(/images/gitusers/michael-crosby.png) no-repeat center;
+	background-size: cover
+}
+
+.contributor-grid figure.u-5 {
+	background: url(/images/gitusers/stevvooe.png) no-repeat center;
+	background-size: cover
+}
+
+

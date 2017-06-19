@@ -1,0 +1,73 @@
+/*
+*
+* Fonts  ***********************************************************************
+*
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $headings;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+  // font-size: $h2;
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+
+ul li {
+      font-size: $base-font-size;
+      line-height: 1.86;
+      text-align: left;
+      list-style-type: none;
+}
+
+p {
+    font-size: 14px;
+    // color: #9fa5a8;
+    // font-size: $base-font-size;
+    // line-height: 1.86;
+    text-align: left;
+    color: #576167;
+    line-height: 32px;
+}
+
+.heading-center {
+  padding: 60px 0 100px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.banner-text {
+  width: 620px;
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #cfd2d3;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+  }
+}
+/************ type **************/
+
+@font-face {
+    font-family: Geomanist Book;
+    src: url(/fonts/book/geomanist-book-webfont.woff), url(/fonts/book/geomanist-book-webfont.woff2), url(/fonts/book/geomanist-book-webfont.eot), url(/fonts/book/geomanist-book-webfont.svg), url("/fonts/book/geomanist-book-webfont.ttf")
+}
+
+@font-face {
+    font-family: Geomanist Light;
+    src: url(/fonts/light/geomanist-light-webfont.woff), url(/fonts/light/geomanist-light-webfont.woff2), url(/fonts/light/geomanist-light-webfont.eot), url(/fonts/light/geomanist-light-webfont.svg), url("/fonts/light/geomanist-light-webfont.ttf")
+}

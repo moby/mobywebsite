@@ -1,18 +1,15 @@
-{% include header.html %}
-
-<div class="hero">
-  <div class="navbar">
-    <div class="name"></div>
-    <div class="actions">
-      {% include links.html %}
-    </div>
+{% include head.html %}
+<body>
+{% include header-sm.html %}
+<div class="header-blog">
+  <div class="banner-text">
+    <h1>Blog</h1>
+    <p>Updates and articles from various projects.</p>
   </div>
-    <p class="definition"><strong>Blog</strong><br><br>Updates and articles<br>from various projects.</p>
 </div>
-<div class="content">
-  <div class="wrapper-details">
+<div class="container">
+  <div class="blog-content">
       {{ content }}
   </div>
 </div>
-
 {% include footer.html %}

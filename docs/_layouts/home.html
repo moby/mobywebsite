@@ -1,18 +1,15 @@
+{% include head.html %}
+
+<body class="home">
+
 {% include header.html %}
 
-<div class="hero">
-  <div class="navbar">
-    <div class="name"></div>
-    <div class="actions">
-      {% include links.html %}
-    </div>
-  </div>
-  <p class="definition"><strong>Moby</strong><br><br>An open framework to assemble specialized container systems<br>without reinventing the wheel.</p>
-</div>
+{% include chart.html %}
+
+<div class="strip"></div>
+
 <div class="content">
-  <div class="wrapper-details">
-      {{ content }}
-  </div>
+    {{ content }}
 </div>
 
 {% include footer.html %}
