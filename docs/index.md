@@ -74,8 +74,8 @@ layout: home
     <div class="container">
         <div class="row">
             <div class="col-md-5 block-alt">
-                <h3>Moby defines the future in product assembly management.</h3>
-                <p class="alt">Product search, are a few of the services they offer. It used to be only a few years ago where Google dominated the Search Engine market. Due largely to the fact that their search technology was the most advanced. </p>
+                <h3>Moby defines the future in specialized container systems building.</h3>
+                <p class="alt"></p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                 Watch the video
                 </button>
