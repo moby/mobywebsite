@@ -4,46 +4,44 @@ layout: home
 ---
 
 <section class="about">
-  <div class="container">
-   <div class="row">
-      <div class="col-lg-9 block-alternate">
-         <h2>What is Moby?</h2>
-         <p class="lead">Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms. At the core of Moby is a framework to assemble specialized container systems wich provides:</p>
-      </div>
-   </div>
-   <div class="row">
-      <div class="col-md-6 col-lg-4 block">
-      <div class="icon">
-         <img src="/images/components.svg">
-      </div>
-         <h3>Components</h3>
-         <p>A library of containerized components for all vital aspects of a container system: OS, container runtime, orchestration, infrastructure management, networking, storage, security, build, image distribution, etc.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 block">
-         <div class="icon">
-         <img src="/images/tools.svg">
-      </div>
-         <h3>Tools</h3>
-         <p>
-            Tools to assemble the components into runnable artifacts for a variety of platforms and architectures: bare metal (both x86 and Arm); executables for Linux, Mac and Windows; VM images for popular cloud and virtualization providers.
-         </p>
-      </div>
-      <div class="col-md-6 col-lg-4 block">
-         <div class="icon">
-         <img src="/images/assemblies.svg">
-      </div>
-         <h3>Assemblies</h3>
-         <p>A set of reference assemblies which can be used as-is, modified, or used as inspiration to create your own. All Moby components are containers, so creating new components is as easy as building a new OCI-compatible container.
-         </p>
-      </div>
-   </div>
-   <div class="gradient-bar">
-   <p>Moby uses containerd as the default container runtime.</p>
-   </div>
-   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 block-alternate">
+                <h2>What is Moby?</h2>
+                <p class="lead">Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms. At the core of Moby is a framework to assemble specialized container systems wich provides:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 block">
+                <div class="icon">
+                    <img src="/images/components.svg">
+                </div>
+                <h3>Components</h3>
+                <p>A library of containerized components for all vital aspects of a container system: OS, container runtime, orchestration, infrastructure management, networking, storage, security, build, image distribution, etc.</p>
+            </div>
+            <div class="col-md-6 col-lg-4 block">
+                <div class="icon">
+                    <img src="/images/tools.svg">
+                </div>
+                <h3>Tools</h3>
+                <p>
+                    Tools to assemble the components into runnable artifacts for a variety of platforms and architectures: bare metal (both x86 and Arm); executables for Linux, Mac and Windows; VM images for popular cloud and virtualization providers.
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4 block">
+                <div class="icon">
+                    <img src="/images/assemblies.svg">
+                </div>
+                <h3>Assemblies</h3>
+                <p>A set of reference assemblies which can be used as-is, modified, or used as inspiration to create your own. All Moby components are containers, so creating new components is as easy as building a new OCI-compatible container.
+                </p>
+            </div>
+        </div>
+        <div class="gradient-bar">
+            <p>Moby uses containerd as the default container runtime.</p>
+        </div>
+    </div>
 </section>
-
-
 <section class="section-usage">
     <div class="container">
         <div class="row">
@@ -72,7 +70,6 @@ layout: home
         </div>
     </div>
 </section>
-
 <section class="section-city">
     <div class="container">
         <div class="row">
@@ -90,19 +87,9 @@ layout: home
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-                  <div class="modal-header">
-                <img src="/images/moby.svg">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
             <div class="modal-body">
-                <iframe width="400" height="100%" src="https://www.youtube.com/embed/cRczhEvSH2A" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jcRR0g0kO4o" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
         </div>
     </div>
 </div>

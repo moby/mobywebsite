@@ -3,6 +3,10 @@
 * layout
 *
 */
+a.brand {
+    width: 200px;
+    float: left;
+}
 
 .brand img {
     height: 40px;
@@ -30,7 +34,7 @@
 }
 
 .blog-content {
-    padding: 60px 0;
+    padding: 40px 0;
     min-height: 800px;
     max-width: 620px;
     margin: 0 auto;
@@ -61,5 +65,9 @@
 }
 
 .header-projects {
-    background: url("../images/projects.jpg") no-repeat center center;
+    background: url("../images/projects.jpg");
+    height: 480;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

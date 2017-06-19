@@ -3,3 +3,40 @@
 * moby mobile!
 *
 */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    body {
+        background: red;
+    }
+    .feature {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+  .banner-text p {
+    font-size: 14px;
+    color: red;
+  }
+  h2 {
+    // font-size: $h2;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px!important;
+  }
+  body.home {
+      & p.lead {
+        background: red;
+        font-size: 12px!important;
+      }
+  }
+
+}

@@ -8,14 +8,15 @@ body {
     // color: $base-font-color;
     font-family: $font;
     font-size: $base-font-size;
-    -webkit-text-stroke-width: .05px;
-    -webkit-text-stroke-color: white;
+    // -webkit-text-stroke-width: .05px;
+    // -webkit-text-stroke-color: white;
     -webkit-font-smoothing: antialiased;
     font-variant-ligatures: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     // padding-top: 60px;
     // height: 100%;
+    overflow-x: hidden;
 }
 
 img {
@@ -33,7 +34,6 @@ a {
         text-decoration: none;
     }
 }
-
 /*
 *
 * Main Header ***********************************************************************
@@ -46,13 +46,11 @@ header {
     z-index: 1029;
 }
 
-
 /*
 *
 * Sections + Content ***********************************************************************
 *
 */
-
 section {
     padding: 3rem;
     float: left;
@@ -63,31 +61,29 @@ section {
     padding: 50px 0;
     min-height: 800px;
 }
-
-
 /*
 *
 * Footer ***********************************************************************
 *
 */
-
 .footer {
     background: $bg-nav;
     height: $nav-height;
     width: $full-width;
-    padding: 1.6rem 0 1rem 0;
-    display: flex;
-
+    padding: 1.3rem 0 1rem 0;
+    float: left;
     ul {
         display: inline;
         li {
+            display: inline;
+            a {
+                color: fff;
 
+            }
         }
     }
-
     .copyright {
-      // padding: 2rem;
-      font-size: 14px;
+      font-size: 12px;
       color: #9fa5a8;
       width: 500px;
       float: left;

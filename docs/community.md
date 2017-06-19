@@ -87,35 +87,7 @@ layout: community
 </section>
 <div class="strip-2">
    <div class="container">
-      <section class="section-talk-to-us">
-         <h2 class="heading-center">Talk to us</h2>
-         <div class="row">
-            <div class="col-lg-3 block center">
-               <div class="social-icon">
-                  <img src="/images/twitter.svg">
-               </div>
-               Follow <a href="#">@moby</a> to get the latest news and project updates 
-            </div>
-            <div class="col-lg-3 block center">
-               <div class="social-icon">
-                  <img src="/images/slack.svg">
-               </div>
-               Join our community Slack to learn, mentor and collaborate with Maintainers and members of the Moby community
-            </div>
-            <div class="col-lg-3 block center">
-               <div class="social-icon">
-                  <img src="/images/github.svg">
-               </div>
-               Check out the project on GitHub and get involved as a contributor
-            </div>
-            <div class="col-lg-3 block center">
-               <div class="social-icon">
-                  <img src="/images/discourse.jpg">
-               </div>
-               Discuss your use cases and get answers to your questions on the Moby Project Forum 
-            </div>
-         </div>
-      </section>
+    {% include social.html %}
    </div>
 </div>
 <section class="section-calendar">

@@ -6,11 +6,8 @@
 .primary-nav {
     background-color: transparent;
     box-shadow: none;
-    height: $nav-height;
+    // height: $nav-height;
     width: $full-width;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    z-index: 9999;
     ul li {
         display: inline;
         padding: 0 24px 0 0;
@@ -27,12 +24,13 @@
 .primary-nav-filled {
     background-color: $bg-nav;
     box-shadow: $nav-shadow;
-    height: $nav-height;
+    // height: $nav-height;
     width: $full-width;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    z-index: 9999;
-    ul li {
+    // -webkit-transition: all 0.4s ease;
+    // transition: all 0.4s ease;
+    // z-index: 9999;
+    min-height: 64px;
+    li {
         display: inline;
         padding: 0 24px 0 0;
         a {
@@ -42,5 +40,23 @@
             color: $nav-links;
             text-decoration: none;
         }
+    }
+}
+
+.toggle {
+    padding: 10px;
+}
+
+i.fa.fa-bars,
+.fa-caret-down {
+    color: #fff;
+}
+
+button:focus {
+    outline: 0;
+    outline: 0;
+    & i.fa.fa-bars,
+    .fa-caret-down {
+        color: #fff;
     }
 }
