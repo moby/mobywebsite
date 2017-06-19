@@ -64,7 +64,7 @@ layout: home
                     <li>Anyone curious about containers and looking for an easy way to learn. We recommend the docker.com website instead</li>
                 </ul>
             </div>
-            <div class="gradient-bar">
+            <div class="gradient-bar-2">
                 <p>You can get started with Moby by running some of the examples assemblies in the LinuxKit GitHub repository.</p>
             </div>
         </div>

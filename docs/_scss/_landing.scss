@@ -41,6 +41,31 @@ body.home {
   }
 }
 
+.gradient-bar {
+    background-image: linear-gradient(to right, #101e26, #2f3d45 51%, #101e26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0 0 0;
+    padding: 12px 10px 0px 10px;
+    p {
+      color: #8b9da7;
+    }
+}
+
+.gradient-bar-2 {
+    background-image: linear-gradient(to right, #15232b, #2f3d45 51%, #14222a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0 0 0;
+    padding: 12px 10px 0px 10px;
+    p {
+      color: #8b9da7;
+    }
+}
 
 /*
 *
