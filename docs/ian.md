@@ -1,6 +1,6 @@
 ---
 title: In Memoriam Ian Murdock
-layout: ian
+layout: misc
 ---
 
 ## [In Memoriam Ian Murdock](https://blog.docker.com/2015/12/ian-murdock/)

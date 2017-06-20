@@ -75,8 +75,12 @@
     transition: all 400ms ease-in;
     opacity: 1;
 }
-// .hide {
-//     display: none;
-//     -webkit-transition: all 0.4s ease;
-//     transition: all 0.4s ease;
-// }
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+table thead {
+    background: #b6bbbd;
+    color: #666869;
+}

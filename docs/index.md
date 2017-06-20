@@ -38,14 +38,14 @@ layout: home
             </div>
         </div>
         <div class="gradient-bar">
-            <p>Moby uses containerd as the default container runtime.</p>
+            <p>Moby uses <a href="https://github.com/containerd/containerd" target="_blank">containerd</a> as the default container runtime.</p>
         </div>
     </div>
 </section>
 <section class="section-usage">
     <div class="container">
         <div class="row">
-            <div class="col block-vertical">
+            <div class="col-lg-6 block-vertical">
                 <h3>Moby IS RECOMMENDED for anyone who wants to assemble a container-based system.</h3>
                 <ul>
                     <li>Hackers who want to customize or patch their Docker build</li>
@@ -56,7 +56,7 @@ layout: home
                     <li>Anyone curious about Docker internals and how it’s built</li>
                 </ul>
             </div>
-            <div class="col block-vertical">
+            <div class="col-lg-6 block-vertical">
                 <h3>Moby is NOT recommended for the following use cases:</h3>
                 <ul>
                     <li>Application developers looking for an easy way to run their applications in containers. We recommend Docker CE instead.</li>
@@ -65,7 +65,7 @@ layout: home
                 </ul>
             </div>
             <div class="gradient-bar-2">
-                <p>You can get started with Moby by running some of the examples assemblies in the LinuxKit GitHub repository.</p>
+                <p>You can get started with Moby by running some of the examples assemblies in the <a href="https://github.com/linuxkit/linuxkit" target="_blank">LinuxKit GitHub</a> repository.</p>
             </div>
         </div>
     </div>
