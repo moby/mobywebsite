@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="763px" height="234px" viewBox="0 0 763 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M110,220 C49.2486775,220 0,170.751322 0,110 C0,49.2486775 49.2486775,0 110,0 C170.751322,0 220,49.2486775 220,110 C220,170.751322 170.751322,220 110,220 Z M14.1327939,151.991775 L14.1327939,151.991775 C27.3504767,182.124716 54.3586249,204.83485 87.1716151,212.136555 C94.2543341,199.866373 100.646916,186.881676 106.323519,173.198817 C126.0405,173.743457 168.760625,173.198817 190.120688,131.806206 C190.668382,130.716927 191.763769,128.538368 195.597627,120.368774 L197.788403,116.011657 L185.739136,108.931342 C172.594482,100.217108 141.923623,96.94927 118.372785,101.306387 C115.634315,78.9761624 103.037355,59.9137756 80.5819049,42.4853076 L67.9849449,33.7710736 L59.2218423,46.8424246 C48.267964,63.1816133 42.7910249,86.6011171 44.4341066,108.386702 C44.9818005,116.011657 47.7202701,130.172287 55.9356788,142.154359 C48.1243563,146.297165 33.8762036,151.91711 14.1327939,151.991775 Z" id="path-1"></path>
+        <filter x="-3.9%" y="-4.8%" width="111.4%" height="111.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.062745098   0 0 0 0 0.117647059   0 0 0 0 0.149019608  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-247.000000, -245.000000)">
+            <g id="Group-5" transform="translate(250.000000, 250.000000)">
+                <text id="An-open-framework-to" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" line-spacing="32" fill="#B7BBBE">
+                    <tspan x="257" y="145">An open framework to assemble specialized container </tspan>
+                    <tspan x="257" y="177">systems without reinventing the wheel.</tspan>
+                </text>
+                <text id="Moby" font-family="Geomanist-Bold, Geomanist" font-size="78" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="257" y="105">Moby</tspan>
+                </text>
+                <text id="project" font-family="Geomanist-Light, Geomanist" font-size="78" font-weight="300" fill="#FFFFFF">
+                    <tspan x="480" y="105">project</tspan>
+                </text>
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
