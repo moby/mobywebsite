@@ -14,10 +14,18 @@ body.home {
   h6 {
     color: $white;
     font-weight: $bold;
+    font-family: 'Geomanist Medium', sans-serif;
+  }
+  a {
+      color: #fff;
+      text-decoration: none;
   }
   p.lead {
-    font-size: 16px;
-    line-height: 30px;
+    font-family: OpenSans;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    color: #b7bbbe;
   }
   h3 {
     font-size: 24px;
@@ -32,6 +40,9 @@ body.home {
     color: #cfd2d3;
     padding: 0 0 20px 0;
   }
+  .section-usage ul {
+    margin: 27px;
+  }
 
   p.alt {
       font-size: 16px;
@@ -44,8 +55,10 @@ section.about {
     padding: 3rem 3rem 10rem 3rem;
     p {
       color: #b7bbbe;
+      line-height: 26px;
     }
 }
+/*** refine these below **/
 .gradient-bar {
     background-image: linear-gradient(to right, #101e26, #2f3d45 51%, #101e26);
     display: flex;
@@ -53,7 +66,7 @@ section.about {
     align-items: center;
     width: 100%;
     margin: 100px 0 0 0;
-    padding: 12px 10px 0px 10px;
+    padding: 18px 10px 0px 10px;
     p {
       color: #8b9da7;
     }
@@ -66,7 +79,7 @@ section.about {
     align-items: center;
     width: 100%;
     margin: 100px 0 0 0;
-    padding: 12px 10px 0px 10px;
+    padding: 18px 10px 0px 10px;
     p {
       color: #8b9da7;
     }
@@ -77,27 +90,35 @@ section.about {
 * Feature hero banner ***********************************************************************
 *
 */
+
+.title1 {
+  font-family: Geomanist Bold;
+    font-size: 78px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    font-size: 78px;
+    float: left;
+    width: 224px;
+}
+.title2 {
+  font-family: 'Geomanist Light', sans-serif;
+  font-size: 78px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 78px;
+}
 .feature-container {
     // background-image: $bg-feature;
     background-color: #101e26;
     background-image: linear-gradient(to bottom, #2f3d45, #101e26);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    height: 100vh;
+    // height: 100vh;
+    height: 600px;
+    padding: 325px 0 0 0;
     animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
     & .down {
         width: 50px;
         margin: 100px auto;
@@ -154,13 +175,12 @@ section.about {
     }
 }
 .feature {
-    max-width: 800px;
+    max-width: 740px;
     margin: 100px auto;
     webkit-box-flex: 0;
     -webkit-flex: none;
     -ms-flex: none;
     flex: 1 0 0;
-    height: 238px;
 }
 
 .moby {
@@ -168,7 +188,9 @@ section.about {
     padding: 5px;
     width: 230px;
 }
-
+.titles {
+    padding: 30px 0 0 0;
+}
 /** TODO: refactor this to not target image later **/
 .about {
   & img {
@@ -213,7 +235,9 @@ section.about {
     background-image: linear-gradient(to bottom, #2f3d45, #101e26);
     padding: 100px 0 150px;
     ul {
-      ist-style-type: circle;
+      li {
+          list-style-type: disc;
+      }
     }
 }
 .section-city {
@@ -223,10 +247,13 @@ section.about {
     -o-background-size: cover;
     background-size: cover;
     min-height: 750px;
-    & h3#moby-defines-the-future-in-product-assembly-management {
-      font-size: 36px;
-      line-height: 46px;
-      color: #101e26;
+    & h3#moby-defines-the-future-in-specialized-container-systems-building {
+    font-family: Geomanist;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.28;
+    text-align: left;
+    color: #101e26;
     }
 }
 
