@@ -8,7 +8,7 @@ layout: home
         <div class="row">
             <div class="col-lg-9 block-alternate">
                 <h2>What is Moby?</h2>
-                <p class="lead">Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms. At the core of Moby is a framework to assemble specialized container systems wich provides:</p>
+                <p class="lead">Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms. At the core of Moby is a framework to assemble specialized container systems which provides:</p>
             </div>
         </div>
         <div class="row">
