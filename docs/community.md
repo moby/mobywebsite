@@ -123,7 +123,7 @@ layout: community
    <div class="row">
       <div class="col-lg-7 block-alternate">
       <h2>Moby Community Calendar</h2>
-      <p>Use this form to submit events featuring talks about Moby Project and it's components: runC / containerd, LinuxKit, Infrakit, SwarmKit, HyperKit, DataKit, VPNKit, Notary, libnetwork, etc.
+      <p>Use <a href="https://docs.google.com/forms/d/e/1FAIpQLSfA0ptPEUOdjq6Pdxs9T4DOT_2_Hhfk3ff4vPqJG3GmTFNH4g/viewform">this form</a> to submit events featuring talks about Moby Project and it's components: runC / containerd, LinuxKit, Infrakit, SwarmKit, HyperKit, DataKit, VPNKit, Notary, libnetwork, etc.
          Events submitted to the Moby Community Calendar will then be featured on the website and promoted via various social channels.
       </p>
             </div>
