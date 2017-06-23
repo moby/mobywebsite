@@ -12,6 +12,12 @@ docker run -ti -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 ```
 Then browser to localhost:4000 to see the rendered site. The site autorefreshes when you modify files locally.
 
+If you want to test blog posts with a data in the future, use the following command instead.
+
+```
+docker run -ti -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000 --future true
+```
+
 ## Staging
 
 When you push to this repository on the `theme-start` branch, it triggers an autobuild of the `docker/mobywebsite` private image, which is autodeployed to a password protected staging website at [https://mobyweb.docker.team/](https://mobyweb.docker.team/). This is for Docker design team to test big redesigns without changing production. Docker employees can use their docker.com account login to access it.
