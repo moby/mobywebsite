@@ -14,16 +14,21 @@ module Jekyll
 
     def render(context)
       
-      url = context[@urlvar]
-      puts 'Fetching content of url: ' + url
-      
+      url = context[@urlvar].strip
       if url =~ URI::regexp
+        if (ENV.has_key?('GITHUB_CLIENT_ID') && ENV.has_key?('GITHUB_CLIENT_SECRET'))
+          url = url + '?client_id=' + ENV['GITHUB_CLIENT_ID'] + '&client_secret=' + ENV['GITHUB_CLIENT_SECRET']
+        end
+        puts 'Fetching content of url: ' + url
         result = fetchContent(url)
       else
         raise 'Invalid URL passed to RemoteFileContent'
       end
       @content = JSON.parse( result ) if result
       if @content
+        if @content.has_key?('message')
+          puts 'content.message: ' + @content['message']
+        end
         site = context.registers[:site]
         path = File.join('_includes', @template)
 
