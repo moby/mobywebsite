@@ -3,96 +3,17 @@ title: Moby
 layout: community
 ---
  
-	
+    
 <section class="contributor-grid flex">
     <div class="container">
       <h2 class="heading-center">Meet our contributors</h2>
       <div class="row">
-        <div class="col">
-          <a href="https://github.com/chungers" target="_blank" class="flex-item">
-              <figure class="u-1">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> David Chung</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/riyazdf" target="_blank" class="flex-item">
-              <figure class="u-2">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Riyaz Faizullabhoy</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/rn" target="_blank" class="flex-item">
-              <figure class="u-3">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Rolf Neugebauer</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/crosbymichael" target="_blank" class="flex-item">
-              <figure class="u-4">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Michael Crosby</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="hhttps://github.com/stevvooe" target="_blank" class="flex-item">
-              <figure class="u-5">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Stephen Day</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/justincormack" target="_blank" class="flex-item">
-              <figure class="u-6">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Justin cormack</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/cyli" target="_blank" class="flex-item">
-              <figure class="u-7">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Ying Li</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/endophage" target="_blank" class="flex-item">
-              <figure class="u-8">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> David Lawrence</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/tianon" target="_blank" class="flex-item">
-              <figure class="u-8">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Tianon Gravi</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/AkihiroSuda" target="_blank" class="flex-item">
-              <figure class="u-8">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Akihiro Suda</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/Aestesp" target="_blank" class="flex-item">
-              <figure class="u-8">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Phil Estes</figcaption>
-              </figure>
-            </a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/hqhq" target="_blank" class="flex-item">
-              <figure class="u-8">
-                <figcaption><i class="fa fa-github" aria-hidden="true"></i> Qiang Huang</figcaption>
-              </figure>
-            </a>
-        </div>
-      </div>
+        {% for contributor in site.data.contributors %}
+        {% capture url_to_fetch %}
+        https://api.github.com/users/{{ contributor }}
+        {% endcapture %}
+        {% fetch_and_render url_to_fetch github-user-card.html %}
+        {% endfor %}
   </div>
 </section>
 
