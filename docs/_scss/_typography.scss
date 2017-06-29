@@ -12,18 +12,17 @@ h5,
 h6 {
     color: $headings;
     font-family: 'Geomanist Medium', sans-serif;
+    line-height: 30px;
 }
 
 h2 {
   // font-size: $h2;
   font-size: 24px;
-  line-height: 46px;
 }
 
 h3 {
   font-size: 18px;
 }
-
 
 ul li {
       font-size: $base-font-size;
@@ -34,9 +33,7 @@ ul li {
 
 p {
     font-size: 14px;
-    // color: #9fa5a8;
     // font-size: $base-font-size;
-    // line-height: 1.86;
     text-align: left;
     color: #576167;
     line-height: 32px;
@@ -52,6 +49,7 @@ p {
   width: 620px;
   h1 {
     color: #fff;
+    font-family: 'Geomanist Bold', sans-serif;
   }
   p {
     color: #cfd2d3;
@@ -66,7 +64,10 @@ p {
     font-family: Geomanist Bold;
     src: url(/fonts/geomanist/Geomanist-Bold.otf)
 }
-
+@font-face {
+    font-family: 'Geomanist Medium';
+    src: url(/fonts/geomanist/Geomanist-Medium.otf);
+}
 @font-face {
     font-family: Geomanist Light;
     src: url(/fonts/geomanist/Geomanist-Light.otf)

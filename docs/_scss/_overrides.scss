@@ -14,7 +14,6 @@ table td, table th {
     max-width: 900px;
     padding: 50px 0;
     margin: 0 auto;
-    // opacity: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -25,17 +24,10 @@ table td, table th {
 }
 
 i.fa {
-    font-size: 24px;
+    font-size: 30px;
+    color: #cfd2d3;
 }
 
-i.fa.fa-chevron-down {
-    color: #fff;
-}
-
-// p.lead {
-// font-size: 18px;
-// line-height: 30px;
-// }
 /*********************** project repos *********************/
 
 .search-repos {

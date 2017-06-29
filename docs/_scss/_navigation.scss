@@ -3,16 +3,17 @@
 * primary-navigation
 *
 */
+
 .primary-nav {
     background-color: transparent;
     box-shadow: none;
     // height: $nav-height;
     width: $full-width;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    ul li {
+    padding: 8px 50px;
+    min-height: 64px;
+    li {
         display: inline;
-        padding: 0 24px 0 0;
+        padding: 9px 24px 0 0;
         a {
             font-size: 14px;
             line-height: 1.71;
@@ -28,13 +29,14 @@
     box-shadow: $nav-shadow;
     // height: $nav-height;
     width: $full-width;
-    // -webkit-transition: all 0.4s ease;
-    // transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
     // z-index: 9999;
+    padding: 8px 50px;
     min-height: 64px;
     li {
         display: inline;
-        padding: 0 24px 0 0;
+        padding: 9px 24px 0 0;
         a {
             font-size: 14px;
             line-height: 1.71;

@@ -6,7 +6,7 @@ author-url: https://github.com/moby/moby/blob/master/reports/2017-05-11-moby-sum
 excerpt_separator: <!--more-->
 ---
 
-### Moby Summit videos from DockerCon
+## Moby Summit videos from DockerCon
 
 Last month at DockerCon, Solomon introduced the [Moby Project: a new open-source project to advance the software containerization movement](https://blog.docker.com/2017/04/introducing-the-moby-project/). The idea behind the project is to help the ecosystem take containers mainstream by providing a library of components, a framework for assembling them into custom container-based systems and a place for all container enthusiasts to experiment and exchange ideas.<!--more--> Going forward, Docker will be assembled using Moby, see [Moby and Docker](http://mobyproject.org/#moby-and-docker) or the diagram below for more details.
 

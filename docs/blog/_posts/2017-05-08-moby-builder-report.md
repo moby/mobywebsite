@@ -3,11 +3,12 @@ title: Moby Builder Report 2017-05-08
 layout: post
 author: Moby Dev Team
 author-url: https://github.com/moby/moby/blob/master/reports/builder/2017-05-08.md
+excerpt_separator: <!--more-->
 ---
 
-### Quality: Dependency interface switch
+## Quality: Dependency interface switch
 
-Proposal for [switching the dependency interface](https://github.com/moby/moby/issues/32904) for current builder package. That should fix the current problems with data leakage and conflicts caused by daemon state cleanup scripts.
+Proposal for [switching the dependency interface](https://github.com/moby/moby/issues/32904) for current builder package. That should fix the current problems with data leakage and conflicts caused by daemon state cleanup scripts.<!--more-->
 
 Merged as part of this effort:
 

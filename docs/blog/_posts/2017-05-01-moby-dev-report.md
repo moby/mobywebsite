@@ -3,9 +3,12 @@ title: Moby Dev Report 2017-05-01
 layout: post
 author: Moby Dev Team
 author-url: https://github.com/moby/moby/blob/master/reports/2017-05-01.md
+excerpt_separator: <!--more-->
 ---
 
-This is the 1st report, since the Moby project was announced at DockerCon. Thank you to everyone that stayed an extra day to attend the summit on Thursday.
+## Moby Dev Report
+
+This is the 1st report, since the Moby project was announced at DockerCon. Thank you to everyone that stayed an extra day to attend the summit on Thursday.<!--more-->
 
 ## Daily Meeting
 

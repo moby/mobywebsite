@@ -66,9 +66,9 @@ section {
 * Footer ***********************************************************************
 *
 */
-.footer {
+footer.footer {
     background: $bg-nav;
-    height: $nav-height;
+    min-height: $nav-height;
     width: $full-width;
     padding: 1.3rem 0 1rem 0;
     float: left;

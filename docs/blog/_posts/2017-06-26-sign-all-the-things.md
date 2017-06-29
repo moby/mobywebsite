@@ -6,9 +6,9 @@ author-url: https://twitter.com/riyazdf
 excerpt_separator: <!--more-->
 ---
 
-###  Notary + LinuxKit deep dive
+##  Notary + LinuxKit deep dive
 
-Just a few months ago, we open sourced [LinuxKit](https://github.com/linuxkit/linuxkit), a toolkit to build secure, lean, and portable Linux subsystems. One of the key features of LinuxKit lies in its componentization: each of its individual components, including its kernel and system services, are completely swappable.
+Just a few months ago, we open sourced [LinuxKit](https://github.com/linuxkit/linuxkit), a toolkit to build secure, lean, and portable Linux subsystems. One of the key features of LinuxKit lies in its componentization: each of its individual components, including its kernel and system services, are completely swappable.<!--more-->
 
 As you can imagine, it is important to _trust_ each and every one of these components so you can be sure your LinuxKit subsystem is assembled securely. In particular, you should be able to understand _where_ the components come from, _what_ they are supposed to include, and _when_ you should stop using them in case they become out of date. This is a hard requirement for every package – after all, a system is only as secure as its most vulnerable component.
 

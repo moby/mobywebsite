@@ -1,5 +1,10 @@
 <div class="col">
-<a href="{{ include.html_url }}" target="_blank" class="flex-item">
-<img src="{{ include.avatar_url }}"/>
-{{ include.name }}</a>
+	<a href="{{ include.html_url }}" target="_blank" class="flex-item">
+  		<figure>
+  			<img src="{{ include.avatar_url }}"/>
+    		<figcaption>
+    			<em class="fa fa-github" aria-hidden="true"></em> {{ include.name }}
+     		</figcaption>
+ 		</figure>
+ 	</a>
 </div>
