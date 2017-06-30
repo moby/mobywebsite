@@ -92,7 +92,7 @@ body.ready{border:1px solid #eee;border-radius:5px;border-color:#eee #ddd #bbb;b
 	border: 1px solid #eee;
     border-radius: 5px;
     padding: 8px 8px 0;
-    background: #fff;
+    background: $white;
     color: #555;
     // position: relative;
     float: left;
@@ -130,7 +130,7 @@ body.ready{border:1px solid #eee;border-radius:5px;border-color:#eee #ddd #bbb;b
     background-image: linear-gradient(#fafafa, #eaeaea)
 }
 .github-card .button:hover {
-    color: #fff;
+    color: $white;
     text-decoration: none;
     background-color: #3072b3;
     background-image: -webkit-linear-gradient(#599bdc, #3072b3);

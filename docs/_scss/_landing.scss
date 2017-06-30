@@ -12,11 +12,9 @@ body.home {
   h5,
   h6 {
     color: $white;
-    // font-weight: $bold;
-    font-family: 'Geomanist Medium', sans-serif;
   }
   a {
-      color: #fff;
+      color: $white;
       text-decoration: none;
   }
   p.lead {
@@ -100,7 +98,7 @@ section.about {
     padding: 50px;
 }
 .moby {
-    fill: #fff;
+    fill: $white;
     padding: 5px;
     width: 230px;
 }
@@ -111,17 +109,17 @@ section.about {
   font-family: 'Geomanist Bold', sans-serif;
   font-weight: bold;
   text-align: left;
-  color: #ffffff;
+  color: $white;
   font-size: 78px;
   float: left;
-  width: 224px;
+  width: 215px;
   height: 95px
 }
 .title2 {
   font-family: 'Geomanist Light', sans-serif;
   font-size: 78px;
   text-align: left;
-  color: #ffffff;
+  color: $white;
   font-size: 78px;
 }
 .feature-container {
@@ -132,8 +130,8 @@ section.about {
     align-items: center;
     justify-content: center;
     // height: 100vh;
-    height: 600px;
-    padding: 325px 0 0 0;
+    height: 543px;
+    padding: 275px 0 0 0;
     animation: fadein 2s;
     & .down {
         width: 50px;
@@ -155,7 +153,7 @@ section.about {
 @-webkit-keyframes pulse {
   from { opacity: .1; }
   50% { opacity: .5 }
-  to { opacity: 1; }
+  to { opacity: 1; fill: red; }
 }
 @keyframes fadein {
     from {
@@ -195,6 +193,9 @@ section.about {
     width: 80px;
     height: 80px;
     margin: 10px 0 10px 0;
+  }
+  h2 {
+    margin: 0 0 30px 0;
   }
 }
 .strip {

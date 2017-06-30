@@ -99,3 +99,27 @@ footer.footer {
     float: right;
     padding: 0 1rem 0 0;
 }
+/*
+*
+* Type is located in _typography.scss ***********************************************************************
+*
+*/
+@font-face {
+    font-family: Geomanist Bold;
+    src: url(/fonts/geomanist/Geomanist-Bold.otf)
+}
+@font-face {
+    font-family: 'Geomanist Medium';
+    src: url(/fonts/geomanist/Geomanist-Medium.otf);
+}
+@font-face {
+    font-family: Geomanist Light;
+    src: url(/fonts/geomanist/Geomanist-Light.otf)
+}
+
+@font-face {
+    font-family: 'Geomanist Thin';
+    src: url(/fonts/geomanist/Geomanist-Thin.otf);
+    font-weight: 200;
+    font-style: normal
+}
