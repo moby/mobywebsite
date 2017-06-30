@@ -4,7 +4,6 @@
 *
 */
 body.home {
-  // padding-top: 64px;
   background: $bg-body-home;
   h1,
   h2,
@@ -13,11 +12,9 @@ body.home {
   h5,
   h6 {
     color: $white;
-    font-weight: $bold;
-    font-family: 'Geomanist Medium', sans-serif;
   }
   a {
-      color: #fff;
+      color: $white;
       text-decoration: none;
   }
   p.lead {
@@ -26,6 +23,7 @@ body.home {
     line-height: 1.6;
     text-align: left;
     color: #b7bbbe;
+    margin: -20px 0 0;
   }
   h3 {
     font-size: 24px;
@@ -90,22 +88,38 @@ section.about {
 * Feature hero banner ***********************************************************************
 *
 */
-
+.feature {
+    max-width: 850px;
+    margin: 100px auto;
+    webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: 1 0 0;
+    padding: 50px;
+}
+.moby {
+    fill: $white;
+    padding: 5px;
+    width: 230px;
+}
+.titles {
+    padding: 30px 0 0 0;
+}
 .title1 {
-  font-family: Geomanist Bold;
-    font-size: 78px;
-    font-weight: bold;
-    text-align: left;
-    color: #ffffff;
-    font-size: 78px;
-    float: left;
-    width: 224px;
+  font-family: 'Geomanist Bold', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: $white;
+  font-size: 78px;
+  float: left;
+  width: 215px;
+  height: 95px
 }
 .title2 {
   font-family: 'Geomanist Light', sans-serif;
   font-size: 78px;
   text-align: left;
-  color: #ffffff;
+  color: $white;
   font-size: 78px;
 }
 .feature-container {
@@ -116,8 +130,8 @@ section.about {
     align-items: center;
     justify-content: center;
     // height: 100vh;
-    height: 600px;
-    padding: 325px 0 0 0;
+    height: 543px;
+    padding: 275px 0 0 0;
     animation: fadein 2s;
     & .down {
         width: 50px;
@@ -134,13 +148,12 @@ section.about {
     50% { opacity: .5; }
     to {
         opacity:1;
-        // -webkit-box-shadow: 0 0 18px #91bd09;
     }
 }
 @-webkit-keyframes pulse {
   from { opacity: .1; }
   50% { opacity: .5 }
-  to { opacity: 1; }
+  to { opacity: 1; fill: red; }
 }
 @keyframes fadein {
     from {
@@ -174,29 +187,15 @@ section.about {
         opacity: 1;
     }
 }
-.feature {
-    max-width: 740px;
-    margin: 100px auto;
-    webkit-box-flex: 0;
-    -webkit-flex: none;
-    -ms-flex: none;
-    flex: 1 0 0;
-}
-
-.moby {
-    fill: #fff;
-    padding: 5px;
-    width: 230px;
-}
-.titles {
-    padding: 30px 0 0 0;
-}
 /** TODO: refactor this to not target image later **/
 .about {
   & img {
     width: 80px;
     height: 80px;
     margin: 10px 0 10px 0;
+  }
+  h2 {
+    margin: 0 0 30px 0;
   }
 }
 .strip {
@@ -228,9 +227,6 @@ section.about {
     max-width: 900px;
   }
 }
-// section.about {
-//     padding: 150px 0 50px 0;
-// }
 .section-usage {
     background-image: linear-gradient(to bottom, #2f3d45, #101e26);
     padding: 100px 0 150px;

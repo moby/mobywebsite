@@ -3,9 +3,10 @@
 * layout
 *
 */
-a.brand {
+.brand {
     width: 200px;
     float: left;
+    margin: 6px 0 0px 0;
 }
 
 .brand img {
@@ -73,18 +74,7 @@ a.brand {
 }
 
 .project-content {
-    padding: 100px 0;
+    padding: 50px 0;
     width: 810px;
     margin: 0 auto;
-}
-
-/*
-*
-* Misc Sections ***********************************************************************
-*
-*/
-
-body.sigs {
-    background: #f1f1f1;
-    padding-top: 65px;
 }

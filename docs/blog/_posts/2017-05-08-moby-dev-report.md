@@ -3,12 +3,13 @@ title: Moby Dev Report 2017-05-08
 layout: post
 author: Moby Dev Team
 author-url: https://github.com/moby/moby/blob/master/reports/2017-05-08.md
+excerpt_separator: <!--more-->
 ---
 
 ## Daily Meeting
 
 A daily meeting is hosted on [slack](https://dockercommunity.slack.com) every business day at 9am PST on the channel `#moby-project`.
-During this meeting, we are talking about the [tasks](https://github.com/moby/moby/issues/32867) needed to be done for splitting moby and docker.
+During this meeting, we are talking about the [tasks](https://github.com/moby/moby/issues/32867) needed to be done for splitting moby and docker.<!--more-->
 
 ## Topics discussed last week
 

@@ -6,32 +6,28 @@
 
 
 .btn {
-    color: #fff;
+    color: $white;
     background-color: #101e26;
     border: solid 1px #000000;
     width: 220px;
     padding: .7rem;
     &:hover {
-        background: #fff;
+        background: $white;
         color: #000;
-        border: 1px solid #fff;
+        border: 1px solid $white;
     }
 }
-
 ul.buttons {
     list-style: none;
     width: 450px;
     margin: 0 auto;
 }
-
 a.button {
-    color: #fff;
+    color: $white;
 }
-
 a.button.outline-btn {
     color: #0087C8;
 }
-
 .button {
     margin: 10px 10px 10px 0;
     font-family: Geomanist Book;
@@ -41,7 +37,7 @@ a.button.outline-btn {
     float: left;
     text-align: center;
     &:hover {
-        color: #fff;
+        color: $white;
         opacity: 0.7;
     }
 }

@@ -3,11 +3,13 @@ title: Moby Builder Report 2017-05-01
 layout: post
 author: Moby Dev Team
 author-url: https://github.com/moby/moby/blob/master/reports/builder/2017-05-01.md
+excerpt_separator: <!--more-->
 ---
 
-### buildkit
+## buildkit
 
-As part of the goals of [Moby](https://github.com/moby/moby#transitioning-to-moby) to split the current platform into reusable components and to provide a future vision for the builder component new [buildkit proposal](https://github.com/moby/moby/issues/32925) was opened with early design draft.
+As part of the goals of [Moby](https://github.com/moby/moby#transitioning-to-moby) to split the current platform into reusable components and to provide a future vision for the builder component new [buildkit proposal](https://github.com/moby/moby/issues/32925) was opened with early design draft.<!--more-->
+
 
 Buildkit is a library providing the core essentials of running a build process using isolated sandboxed commands. It is designed for extensibility and customization. Buildkit supports multiple build declaration formats(frontends) and multiple ways for outputting build results(not just docker images). It doesn't make decisions for a specific worker, snapshot or exporter implementations.
 

@@ -8,22 +8,16 @@ body {
     // color: $base-font-color;
     font-family: $font;
     font-size: $base-font-size;
-    // -webkit-text-stroke-width: .05px;
-    // -webkit-text-stroke-color: white;
     -webkit-font-smoothing: antialiased;
     font-variant-ligatures: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    // padding-top: 60px;
-    // height: 100%;
     overflow-x: hidden;
 }
-
 img {
     width: 100%;
     height: auto;
 }
-
 a {
     color: $primary-links;
     text-decoration: underline;
@@ -45,7 +39,6 @@ header {
     transition: all 0.4s ease;
     z-index: 1029;
 }
-
 /*
 *
 * Sections + Content ***********************************************************************
@@ -59,16 +52,15 @@ section {
 
 .content {
     padding: 50px 0;
-    height: 100vh;
 }
 /*
 *
 * Footer ***********************************************************************
 *
 */
-.footer {
+footer.footer {
     background: $bg-nav;
-    height: $nav-height;
+    min-height: $nav-height;
     width: $full-width;
     padding: 1.3rem 0 1rem 0;
     float: left;
@@ -84,9 +76,9 @@ section {
                 }
             }
         }
-       i.fa {
-            font-size: 20px;
-        }
+    i.fa {
+        font-size: 20px;
+    }
     .copyright {
       font-size: 12px;
       color: #9fa5a8;
@@ -98,4 +90,28 @@ section {
 .footer-links {
     float: right;
     padding: 0 1rem 0 0;
+}
+/*
+*
+* Type is located in _typography.scss ***********************************************************************
+*
+*/
+@font-face {
+    font-family: Geomanist Bold;
+    src: url(/fonts/geomanist/Geomanist-Bold.otf)
+}
+@font-face {
+    font-family: 'Geomanist Medium';
+    src: url(/fonts/geomanist/Geomanist-Medium.otf);
+}
+@font-face {
+    font-family: Geomanist Light;
+    src: url(/fonts/geomanist/Geomanist-Light.otf)
+}
+
+@font-face {
+    font-family: 'Geomanist Thin';
+    src: url(/fonts/geomanist/Geomanist-Thin.otf);
+    font-weight: 200;
+    font-style: normal
 }
