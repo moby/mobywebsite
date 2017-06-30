@@ -16,10 +16,8 @@ h6 {
 }
 
 h2 {
-  // font-size: $h2;
-  font-size: 24px;
+  font-size: $h2;
 }
-
 h3 {
   font-size: 18px;
 }
@@ -30,15 +28,15 @@ ul li {
       text-align: left;
       list-style-type: none;
 }
-
 p {
-    font-size: 14px;
-    // font-size: $base-font-size;
+    font-size: $base-font-size;
     text-align: left;
     color: #576167;
     line-height: 32px;
 }
-
+.lead {
+    line-height: 36px;
+}
 .heading-center {
   padding: 60px 0 100px 0;
   text-align: center;
