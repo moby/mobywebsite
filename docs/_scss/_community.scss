@@ -22,14 +22,11 @@
     // height: 400px;
     padding: 26px 0 20px 0;
 }
-
 .social-icon {
     width: 125px;
     height: 142px;
     margin: 0 auto;
 }
-
-
 .twitter {
     border-bottom: 1px solid #ccc;
     width: 650px;
@@ -100,7 +97,7 @@ body.ready{border:1px solid #eee;border-radius:5px;border-color:#eee #ddd #bbb;b
     // position: relative;
     float: left;
     width: 380px;
-    height: 200px;
+    min-height: 180px;
     margin: 5px;
 }
 .github-card a {
@@ -244,10 +241,10 @@ body.ready{border:1px solid #eee;border-radius:5px;border-color:#eee #ddd #bbb;b
 }
 .repo-card .content p {
     margin: 0 5px 0 0;
-    font: 18px/24px Georgia, "Times New Roman", Palatino, serif;
     overflow: hidden;
     clear: both;
-    word-wrap: break-word
+    word-wrap: break-word;
+    line-height: 20px;
 }
 .repo-card .footer {
     border-top: 1px solid #eee;

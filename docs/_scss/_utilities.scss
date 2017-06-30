@@ -3,6 +3,10 @@
 * utilities
 *
 */
+table {
+    margin-bottom: 3rem;
+    border: 1px solid #f1f1f1;
+}
 table thead {
     background: #f5f5f5;
     color: #666869;
@@ -17,7 +21,6 @@ table thead {
     transition: all 200ms ease-in;
 }
 .block {
-    // padding: $padding;
     padding: 20px 50px 25px 0px;
 }
 .block-alt {
