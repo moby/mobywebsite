@@ -7,3 +7,7 @@
 - moby/vpnkit
 - docker/swarmkit
 - docker/libnetwork
+- moby/buildkit
+- moby/hyperkit
+- moby/moby
+- moby/tool
