@@ -3,7 +3,6 @@
 * primary-navigation
 *
 */
-
 .primary-nav {
     background-color: transparent;
     box-shadow: none;
@@ -23,7 +22,6 @@
         }
     }
 }
-
 .primary-nav-filled {
     background-color: $bg-nav;
     box-shadow: $nav-shadow;
@@ -46,7 +44,6 @@
         }
     }
 }
-
 .toggle {
     padding: 10px;
 }
@@ -55,7 +52,6 @@ i.fa.fa-bars,
 .fa-caret-down {
     color: $white;
 }
-
 button:focus {
     outline: 0;
     outline: 0;

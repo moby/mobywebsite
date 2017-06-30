@@ -3,7 +3,6 @@
 * Typography  ***********************************************************************
 *
 */
-
 h1,
 h2,
 h3,
@@ -14,14 +13,15 @@ h6 {
     font-family: 'Geomanist Medium', sans-serif;
     line-height: 30px;
 }
-
+h1 {
+  font-size: $h1;
+}
 h2 {
   font-size: $h2;
 }
 h3 {
-  font-size: 18px;
+  font-size: $h3;
 }
-
 ul li {
       font-size: $base-font-size;
       line-height: 1.86;
@@ -42,7 +42,6 @@ p {
   text-align: center;
   font-weight: bold;
 }
-
 .banner-text {
   width: 620px;
   h1 {
