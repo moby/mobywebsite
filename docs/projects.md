@@ -25,3 +25,5 @@ https://api.github.com/repos/{{ project }}
 {% endfor %}
 </div>
 </div>
+
+Note: [runc](https://github.com/opencontainers/runc) is owned by [Open Container Initiative (OCI)](https://www.opencontainers.org), and [containerd](https://github.com/containerd/containerd) is owned by [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io).
