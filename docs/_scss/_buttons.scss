@@ -3,14 +3,12 @@
 * Buttons ***********************************************************************
 *
 */
-
-
 .btn {
     color: $white;
     background-color: #101e26;
     border: solid 1px #000000;
-    width: 220px;
     padding: .7rem;
+    width: 220px;
     &:hover {
         background: $white;
         color: #000;
@@ -29,13 +27,12 @@ a.button.outline-btn {
     color: #0087C8;
 }
 .button {
-    margin: 10px 10px 10px 0;
-    font-family: Geomanist Book;
-    padding: 12px 35px 10px;
-    min-width: 200px;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    margin: 10px 10px 10px 0;
+    padding: 12px 35px 10px;
     float: left;
     text-align: center;
+    width: 100px;
     &:hover {
         color: $white;
         opacity: 0.7;

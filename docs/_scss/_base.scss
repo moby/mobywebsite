@@ -14,10 +14,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
 }
-img {
-    width: 100%;
-    height: auto;
-}
 a {
     color: $primary-links;
     text-decoration: underline;
@@ -55,6 +51,15 @@ section {
 }
 /*
 *
+* Images ***********************************************************************
+*
+*/
+img {
+    width: 100%;
+    height: auto;
+}
+/*
+*
 * Footer ***********************************************************************
 *
 */
@@ -71,7 +76,7 @@ footer.footer {
             a {
                 color: #cfd2d3;
                 text-decoration: none;
-                font-size: 14px;
+                font-size: $base-font-size;
                 padding: 0 10px 10px 0;
                 }
             }
@@ -97,7 +102,7 @@ footer.footer {
 *
 */
 @font-face {
-    font-family: Geomanist Bold;
+    font-family: 'Geomanist Bold';
     src: url(/fonts/geomanist/Geomanist-Bold.otf)
 }
 @font-face {
@@ -105,13 +110,11 @@ footer.footer {
     src: url(/fonts/geomanist/Geomanist-Medium.otf);
 }
 @font-face {
-    font-family: Geomanist Light;
+    font-family: 'Geomanist Light';
     src: url(/fonts/geomanist/Geomanist-Light.otf)
 }
 
 @font-face {
     font-family: 'Geomanist Thin';
     src: url(/fonts/geomanist/Geomanist-Thin.otf);
-    font-weight: 200;
-    font-style: normal
 }

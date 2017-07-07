@@ -18,7 +18,7 @@
 
 @media only screen and (min-width: 375px) {
   .banner-text p {
-    font-size: 14px;
+    font-size: $base-font-size;
     color: red;
   }
   h2 {
@@ -27,7 +27,7 @@
   }
 
   h3 {
-    font-size: 14px;
+    font-size: $base-font-size;
   }
   p {
     font-size: 12px!important;

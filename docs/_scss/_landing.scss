@@ -18,8 +18,7 @@ body.home {
       text-decoration: none;
   }
   p.lead {
-    font-family: OpenSans;
-    font-size: 18px;
+    font-size: $lead;
     line-height: 1.6;
     text-align: left;
     color: #b7bbbe;
@@ -31,8 +30,7 @@ body.home {
   }
   .section-usage ul,
   .section-usage li {
-    font-family: OpenSans;
-    font-size: 14px;
+    font-size: $base-font-size;
     line-height: 1.86;
     text-align: left;
     color: #cfd2d3;
@@ -65,6 +63,9 @@ section.about {
     width: 100%;
     margin: 100px 0 0 0;
     padding: 18px 10px 0px 10px;
+    a {
+      text-decoration: underline!important;
+    }
     p {
       color: #8b9da7;
     }
@@ -78,6 +79,9 @@ section.about {
     width: 100%;
     margin: 100px 0 0 0;
     padding: 18px 10px 0px 10px;
+    a {
+      text-decoration: underline!important;
+    }
     p {
       color: #8b9da7;
     }
@@ -123,13 +127,11 @@ section.about {
   font-size: 78px;
 }
 .feature-container {
-    // background-image: $bg-feature;
     background-color: #101e26;
     background-image: linear-gradient(to bottom, #2f3d45, #101e26);
     display: flex;
     align-items: center;
     justify-content: center;
-    // height: 100vh;
     height: 543px;
     padding: 275px 0 0 0;
     animation: fadein 2s;
@@ -244,7 +246,6 @@ section.about {
     background-size: cover;
     min-height: 750px;
     & h3#moby-defines-the-future-in-specialized-container-systems-building {
-    font-family: Geomanist;
     font-size: 36px;
     font-weight: 500;
     line-height: 1.28;

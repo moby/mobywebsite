@@ -1,5 +1,10 @@
+/*
+*
+* Tables ***********************************************************************
+*
+*/
 table {
-    font-size: 14px;
+    font-size: $base-font-size;
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
@@ -10,6 +15,11 @@ table td, table th {
     vertical-align: top;
     border-top: 1px solid #eceeef;
 }
+/*
+*
+* Charts ***********************************************************************
+*
+*/
 .chart {
     max-width: 900px;
     padding: 50px 0;
@@ -17,6 +27,11 @@ table td, table th {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+/*
+*
+* Icons ***********************************************************************
+*
+*/
 .icon {
     width: 100px;
     padding: 10px;
@@ -112,10 +127,6 @@ body.ian {
 .post-meta {
     padding: 20px 0 20px 0;
 }
-// .contrib-1,
-// .contrib-2 {
-//     display: none;
-// }
 /*
 *
 * bootstrap overrides
