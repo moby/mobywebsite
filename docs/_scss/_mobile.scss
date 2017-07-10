@@ -11,15 +11,21 @@
     body {
         background: red;
     }
-    .feature {
-        display: none;
+    .feature-container {
+      display: none;
     }
-}
-
-@media only screen and (min-width: 375px) {
+  .primary-nav,
+  .primary-nav-filled {
+    // background-color: #000000;
+    // padding: 10px;
+    position: relative;
+  }
+  // .banner-text {
+  //   padding: 0 30px 10px 10px;
+  // }
   .banner-text p {
-    font-size: 14px;
-    color: red;
+    font-size: $base-font-size;
+    // color: red;
   }
   h2 {
     // font-size: $h2;
@@ -27,7 +33,7 @@
   }
 
   h3 {
-    font-size: 14px;
+    font-size: $base-font-size;
   }
   p {
     font-size: 12px!important;
@@ -38,5 +44,20 @@
         font-size: 12px!important;
       }
   }
+.twitter {
+    border-bottom: 1px solid #ccc;
+    width: 320px;
+  }
+  nav li {
+    padding: 18px 35px 10px 0!important;
+    text-align: center;
+  }
+  .mr-auto {
+    background: red;
+    margin: 0 auto!important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
 
 }
