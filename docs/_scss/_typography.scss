@@ -43,7 +43,8 @@ p {
   font-weight: bold;
 }
 .banner-text {
-  width: 620px;
+  max-width: 620px;
+  padding: 0 30px 10px 10px;
   h1 {
     color: $white;
     font-family: 'Geomanist Bold', sans-serif;
