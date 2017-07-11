@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 Last month at DockerCon, Solomon introduced the [Moby Project: a new open-source project to advance the software containerization movement](https://blog.docker.com/2017/04/introducing-the-moby-project/). The idea behind the project is to help the ecosystem take containers mainstream by providing a library of components, a framework for assembling them into custom container-based systems and a place for all container enthusiasts to experiment and exchange ideas.<!--more--> Going forward, Docker will be assembled using Moby, see [Moby and Docker](http://mobyproject.org/#moby-and-docker) or the diagram below for more details.
 
-![alt text](https://blog.docker.com/wp-content/uploads/b0f6921d-2788-4ed0-97d7-be4c77d7f59b-1.jpg "Moby Project diagram")
+![alt text](/images/moby-docker.jpg "Moby Project diagram")
 
 Knowing that that a good number of maintainers, contributors and advanced Docker users would be attending DockerCon, we decided to organize the first Moby Summit in collaboration with the Cloud Native Computing Foundation (CNCF). The summit was a small collaborative event for container hackers who are actively maintaining, contributing or generally involved or interested in the design and development of components of the Moby project library in particular: [LinuxKit](https://github.com/linuxkit/linuxkit), [containerd](https://github.com/containerd), [Infrakit](https://github.com/docker/infrakit), [SwarmKit](https://github.com/docker/swarmkit), [libnetwork](https://github.com/docker/libnetwork) and [Notary](https://github.com/docker/notary)
 

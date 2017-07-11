@@ -23,7 +23,13 @@ https://api.github.com/users/{{ contributor }}
   </div>
 </section>  
  -->
-
+<section class="section-community">
+   <div class="container">
+      <h2 class="heading-center">Moby Summits</h2>
+      <p>Moby Summits allow community members to meet in person and share what they're doing with the various Moby projects. <a href="/summit/">The Moby Summit page</a> contains links to previous summits summaries, as well as information and planning documents for the next one.
+      </p>
+   </div>
+</section>
 <section class="section-community">
    <div class="container">
       <h2 class="heading-center">What is the community saying?</h2>
