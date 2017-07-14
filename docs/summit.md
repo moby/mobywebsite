@@ -15,5 +15,5 @@ If there are topics you want to see covered in this summit, please send a pull r
 
 ### Previous Moby Summits recaps
 
-* [Moby Summit June 2017 Recap](http://mobyproject.org/blog/2017/06/26/moby-summit-recap/)
-* [Moby Summit at DockerCon May 2017](http://mobyproject.org/blog/2017/05/11/moby-summit-report/)
+* [Moby Summit, June 2017](http://mobyproject.org/blog/2017/06/26/moby-summit-recap/)
+* [Moby Summit, May 2017](http://mobyproject.org/blog/2017/05/11/moby-summit-report/)
