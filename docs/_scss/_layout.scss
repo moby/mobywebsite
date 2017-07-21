@@ -21,11 +21,19 @@
     transition: all 400ms ease-in;
 }
 
+body.default {
+    padding-top: 50px;
+}
+
+.content {
+    min-height: 800px;
+}
 /*
 *
 * Section Headers ***********************************************************************
 *
 */
+
 .header-blog {
     background-image: url("../images/blog.jpg");
     height: 480;
