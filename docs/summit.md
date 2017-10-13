@@ -18,5 +18,5 @@ We look forward to seeing you in Copenhagen, Denmark!
 ### Previous Moby Summits recaps
 
 * [Moby Summit, September 2017](https://blog.mobyproject.org/moby-summit-los-angeles-recap-a41e6acf81f8)
-* [Moby Summit, June 2017](http://mobyproject.org/blog/2017/06/26/moby-summit-recap/)
-* [Moby Summit, May 2017](http://mobyproject.org/blog/2017/05/11/moby-summit-report/)
+* [Moby Summit, June 2017](https://blog.mobyproject.org/moby-summit-june-2017-recap-b7f9c44334a6)
+* [Moby Summit, May 2017](https://blog.mobyproject.org/moby-summit-at-dockercon-2017-05-11-9d11f4e7c5a1)
