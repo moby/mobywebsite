@@ -7,6 +7,8 @@ layout: projects
 Moby is an open-source project, created by Docker, to enable and accelerate software containerization.
 </div>
 
+![Moby projects](/images/dockercon-2017-eu.000.jpeg)
+
 The projects themselves provide a "Lego set" of toolkit components, the framework for assembling them into custom container-based systems, and a place for all container enthusiasts and professionals to experiment and exchange ideas.
 
 Moby Project also hosts Special Interest Groups (SIG) for discussing subtopics among interested contributors. SIGs typically meet every week and post their meeting minutes and video of the meetings online.  If you're interested in starting a SIG, please begin a discussion on the [forum](https://forums.mobyproject.org).
