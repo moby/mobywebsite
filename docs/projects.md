@@ -34,4 +34,4 @@ https://api.github.com/repos/{{ project }}
 </div>
 </div>
 
-_Note: [runc](https://github.com/opencontainers/runc) is owned by [Open Container Initiative (OCI)](https://www.opencontainers.org), and [containerd](https://github.com/containerd/containerd) is owned by [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io)._
+_Note: [runc](https://github.com/opencontainers/runc) is owned by [Open Container Initiative (OCI)](https://www.opencontainers.org). [containerd](https://github.com/containerd/containerd) and [Notary](https://github.com/theupdateframework/notary) are owned by [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io)._
