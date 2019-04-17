@@ -9,7 +9,7 @@ There have always been close relations between the Moby open source projects, le
 
 This page summarizes how each Moby Project integrates Kubernetes and how to get involved.
 
-![Moby <3 Kubernetes](/images/dockercon-2017-eu.002.jpeg)
+<img src="images/dockercon-2017-eu.002.jpeg" alt="docker con 2017" title="Moby <3 Kubernetes">
 
 ### containerd and cri-containerd
 
