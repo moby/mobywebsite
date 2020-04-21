@@ -5,7 +5,7 @@ layout: kubernetes
 
 ## How Moby and Kubernetes work together
 
-There have always been close relations between the Moby open source projects, led by Docker, and Kubernetes, since Kubernetes was launched at DockerCon 2014. The Kubernetes and the Moby communities often include the same people, attending the same meetups, using the same languages and design patterns, and trying to solve the same problems. The containerd project was started last year in collaboration with all of the major cloud providers and has worked with the Kubernetes community to provide an open and reliable container runtime for higher level orchestration projects and container platforms, including Kubernetes.
+There have always been close relations between the Moby open source projects, led by Docker, and Kubernetes, since Kubernetes was launched at DockerCon 2014. The Kubernetes and the Moby communities often include the same people, attend the same meetups, use the same languages and design patterns, and try to solve the same problems. The containerd project was started last year in collaboration with all of the major cloud providers and has worked with the Kubernetes community to provide an open and reliable container runtime for higher level orchestration projects and container platforms, including Kubernetes.
 
 This page summarizes how each Moby Project integrates Kubernetes and how to get involved.
 
@@ -15,7 +15,7 @@ This page summarizes how each Moby Project integrates Kubernetes and how to get 
 
 Code: [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 
-The containerd project was designed to be used as the core container runtime for future editions of Docker, Kubernetes, and many other projects. The project is currently [approaching the 1.0 milestone](https://github.com/containerd/containerd/milestone/13).
+The containerd project was designed to be used as the core container runtime for future editions of Docker, Kubernetes, and many other projects.
 
 Code: [https://github.com/kubernetes-incubator/cri-containerd](https://github.com/kubernetes-incubator/cri-containerd)
 
