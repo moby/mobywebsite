@@ -1,3 +1,6 @@
+$landing-graphic-height: 507px;
+$landing-graphic-width: 876px;
+
 /*
 *
 * Landing page specific ***********************************************************************
@@ -221,13 +224,26 @@ section.about {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 20px;
-  & .chart {
-    webkit-box-flex: 0;
-    -webkit-flex: none;
-    -ms-flex: none;
-    flex: 1 0 0;
-    max-width: 900px;
-  }
+
+    & .chart {
+        webkit-box-flex: 0;
+        -webkit-flex: none;
+        -ms-flex: none;
+        flex: 1 0 0;
+        max-width: 100%;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+        & .chart {
+            max-width: 900px;
+
+            svg {
+                width: $landing-graphic-width;
+                height: $landing-graphic-height;
+            }
+        }
+    }
+
 }
 .section-usage {
     background-image: linear-gradient(to bottom, #2f3d45, #101e26);
