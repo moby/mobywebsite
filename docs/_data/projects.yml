@@ -1,4 +1,3 @@
-- docker/infrakit
 - containerd/containerd
 - opencontainers/runc
 - theupdateframework/notary

@@ -8,10 +8,26 @@ layout: community
 <h2 class="heading-center">Meet our contributors</h2>
 <div class="row">
 {% for contributor in site.data.contributors %}
-{% capture url_to_fetch %}
-https://api.github.com/users/{{ contributor }}
-{% endcapture %}
-{% fetch_and_render url_to_fetch github-user-card.html %}
+<div class="col">
+	<a id="{{contributor}}-url" target="_blank" class="flex-item">
+  		<figure>
+  			<img id="{{contributor}}-image" />
+    		<figcaption>
+    			<em class="fa fa-github" aria-hidden="true"></em>
+            <span id="{{contributor}}-name"></span>
+     		</figcaption>
+ 		</figure>
+ 	</a>
+</div>
+<script>
+fetch('https://api.github.com/users/{{contributor}}')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("{{contributor}}-url").src = json.html_url;
+    document.getElementById("{{contributor}}-image").src = json.avatar_url;
+    document.getElementById("{{contributor}}-name").innerHTML = json.name;
+    });
+</script>
 {% endfor %}
 </div></div></section>
 

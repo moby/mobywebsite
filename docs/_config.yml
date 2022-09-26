@@ -10,10 +10,10 @@ safe: false
 lsi: false
 exclude: [README.md]
 
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-feed
 
 defaults:
   -
