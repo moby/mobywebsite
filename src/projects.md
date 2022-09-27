@@ -7,7 +7,7 @@ layout: projects
 Moby is an open-source project, created by Docker, to enable and accelerate software containerization.
 </div>
 
-![Moby projects](/images/dockercon-2017-eu.000.jpeg)
+![Moby projects]({{ 'images/dockercon-2017-eu.000.jpeg' | relative_url }})
 
 The projects themselves provide a "Lego set" of toolkit components, the framework for assembling them into custom container-based systems, and a place for all container enthusiasts and professionals to experiment and exchange ideas. There is a Technical Steering committee, elected by the projects, to help with project governance.
 

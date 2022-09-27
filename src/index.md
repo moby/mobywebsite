@@ -14,14 +14,14 @@ layout: home
         <div class="row">
             <div class="col-md-6 col-lg-4 block">
                 <div class="icon">
-                    <img src="/images/components.svg">
+                    <img src="{{ 'images/components.svg' | relative_url }}">
                 </div>
                 <h3>Components</h3>
                 <p>A library of containerized components for all vital aspects of a container system: OS, container runtime, orchestration, infrastructure management, networking, storage, security, build, image distribution, etc.</p>
             </div>
             <div class="col-md-6 col-lg-4 block">
                 <div class="icon">
-                    <img src="/images/tools.svg">
+                    <img src="{{ 'images/tools.svg' | relative_url }}">
                 </div>
                 <h3>Tools</h3>
                 <p>
@@ -30,7 +30,7 @@ layout: home
             </div>
             <div class="col-md-6 col-lg-4 block">
                 <div class="icon">
-                    <img src="/images/assemblies.svg">
+                    <img src="{{ 'images/assemblies.svg' | relative_url }}">
                 </div>
                 <h3>Assemblies</h3>
                 <p>A set of reference assemblies which can be used as-is, modified, or used as inspiration to create your own. All Moby components are containers, so creating new components is as easy as building a new OCI-compatible container.

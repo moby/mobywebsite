@@ -1,21 +1,30 @@
 source: src
 destination: _site
+
 markdown: kramdown
-kramdown:
-  input: GFM
-  html_to_native: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+highlighter: rouge
 incremental: true
 permalink: pretty
 safe: false
 lsi: false
-exclude: [README.md]
+
+# https://kramdown.gettalong.org/options.html
+# https://github.com/kramdown/parser-gfm/blob/master/lib/kramdown/parser/gfm/options.rb
+kramdown:
+  input: GFM
+  gfm_quirks: [paragraph_end, no_auto_typographic]
+  hard_wrap: false
+  html_to_native: true
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+
+sass:
+  sass_dir: _scss
+  style: expanded
 
 defaults:
   -
@@ -24,9 +33,3 @@ defaults:
       type: "pages"
     values:
       layout: default
-
-sass:
-  sass_dir:          _scss
-  style:            :compressed
-
-exclude: [node_modules, gulpfile.js]

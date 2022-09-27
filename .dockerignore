@@ -1,5 +1,8 @@
-.dockerignore
-.git
-.gitignore
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_site
 Dockerfile
 docker-compose.yml
+/vendor

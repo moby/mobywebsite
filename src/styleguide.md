@@ -90,7 +90,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 <!-- Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](/images/moby.svg "Logo Title Text 1") -->
+![alt text]({{ 'images/moby.svg' | relative_url }} "Logo Title Text 1") -->
 
 ---
 

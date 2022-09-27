@@ -15,7 +15,7 @@ layout: blog
     <ul>
   {% endif %}
 
-  <li class="posts"><span>{{ post.date | date: "%d %b %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>{{ post.excerpt }}</li>
+  <li class="posts"><span>{{ post.date | date: "%d %b %Y" }}</span> &raquo; <a href="{{ post.url | relative_url }}">{{ post.title }}</a>{{ post.excerpt }}</li>
 
   {% if forloop.last %}
     </ul>
