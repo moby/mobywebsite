@@ -11,4 +11,4 @@
 - moby/moby
 - moby/tool
 - moby/libentitlement
-- docker/distribution
+- distribution/distribution
