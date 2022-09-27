@@ -1,3 +1,5 @@
+source: src
+destination: _site
 markdown: kramdown
 kramdown:
   input: GFM
