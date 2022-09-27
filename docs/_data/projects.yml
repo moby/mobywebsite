@@ -1,4 +1,3 @@
-- docker/infrakit
 - containerd/containerd
 - opencontainers/runc
 - theupdateframework/notary
@@ -12,4 +11,4 @@
 - moby/moby
 - moby/tool
 - moby/libentitlement
-- docker/distribution
+- distribution/distribution
