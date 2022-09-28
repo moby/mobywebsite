@@ -65,7 +65,7 @@ layout: home
                 </ul>
             </div>
             <div class="gradient-bar-2">
-                <p>You can get started with Moby by running some of the examples assemblies in the <a href="https://github.com/linuxkit/linuxkit" target="_blank">LinuxKit GitHub</a> repository, or in a browser with <a href="http://play-with-moby.com/" target="_blank">Play with Moby</a>.</p>
+                <p>You can get started with Moby by running some of the examples assemblies in the <a href="https://github.com/linuxkit/linuxkit" target="_blank">LinuxKit GitHub</a> repository, or in a browser with <a href="https://training.play-with-docker.com/play-with-moby/" target="_blank">Play with Moby</a>.</p>
             </div>
         </div>
     </div>
