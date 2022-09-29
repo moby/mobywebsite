@@ -1,0 +1,9 @@
+services:
+  mobywebsite:
+    build:
+      args:
+        - JEKYLL_ENV
+        - BASE_URL
+      context: .
+    ports:
+     - "4000:4000"
