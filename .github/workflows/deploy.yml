@@ -40,6 +40,10 @@ jobs:
           # FIXME: remove when deployed against https://mobyproject.org/
           BASEURL: /mobywebsite
       -
+        name: Fix permissions
+        run: |
+          chown -R $(id -u):$(id -g) _site
+      -
         name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
