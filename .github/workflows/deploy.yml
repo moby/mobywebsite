@@ -1,0 +1,58 @@
+name: deploy
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+      -
+        name: Setup Pages
+        uses: actions/configure-pages@v2
+      -
+        name: Build
+        uses: docker/bake-action@v2
+        with:
+          targets: release
+          set: |
+            *.cache-from=type=gha,scope=deploy-website
+            *.cache-to=type=gha,scope=deploy-website,mode=max
+        env:
+          # FIXME: remove when deployed against https://mobyproject.org/
+          BASE_URL: /mobywebsite
+      -
+        name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: _site/
+
+  deploy:
+    runs-on: ubuntu-20.04
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      -
+        name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
