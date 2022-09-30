@@ -38,7 +38,11 @@ jobs:
             *.cache-to=type=gha,scope=deploy-website,mode=max
         env:
           # FIXME: remove when deployed against https://mobyproject.org/
-          BASE_URL: /mobywebsite
+          BASEURL: /mobywebsite
+      -
+        name: Fix permissions
+        run: |
+          chown -R $(id -u):$(id -g) _site
       -
         name: Upload artifact
         uses: actions/upload-pages-artifact@v1
