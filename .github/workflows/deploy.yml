@@ -28,9 +28,6 @@ jobs:
           set: |
             *.cache-from=type=gha,scope=deploy-website
             *.cache-to=type=gha,scope=deploy-website,mode=max
-        env:
-          # FIXME: remove when deployed against https://mobyproject.org/
-          BASEURL: /mobywebsite
       -
         name: Publish
         uses: crazy-max/ghaction-github-pages@v3
