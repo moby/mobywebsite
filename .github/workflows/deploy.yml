@@ -35,5 +35,6 @@ jobs:
           target_branch: gh-pages
           build_dir: _site
           jekyll: false
+          fqdn: mobyproject.org
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
