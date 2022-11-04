@@ -7,7 +7,7 @@ Website for the [Moby Project](https://mobyproject.org/).  The website is built 
 To build and test locally, run this command:
 
 ```bash
-$ make deploy
+$ make serve
 ```
 
 Then open `localhost:4000` in your browser to see the rendered site.
