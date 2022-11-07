@@ -34,7 +34,7 @@ There are several ways you can set up a Kubernetes cluster with containerd and c
 
 - Install with LinuxKit on a local VM (see the [instructions](https://github.com/linuxkit/linuxkit/tree/master/projects/kubernetes)).
 
-You can join the discussions on the `#containerd` channel on the [Community Slack](http://dockr.ly/community).
+You can join the discussions on the `#containerd` channel on the [Community Slack](https://dockr.ly/comm-slack).
 
 ### LinuxKit
 
@@ -45,7 +45,7 @@ LinuxKit is a tool for building custom secure, portable and lean operating syste
 You can see the see the LinuxKit Kubernetes demo from DockerCon in the video below
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hwkqju_BXEo?rel=0&amp;start=6420" frameborder="0" allowfullscreen></iframe>
 
-You can join the discussions on the `#linuxkit` channel on the [Community Slack](http://dockr.ly/community).
+You can join the discussions on the `#linuxkit` channel on the [Community Slack](https://dockr.ly/comm-slack).
 
 
 ### InfraKit
@@ -55,7 +55,7 @@ Code: [https://github.com/docker/infrakit](https://github.com/docker/infrakit)
 InfraKit is a toolkit for creating and managing declarative, self-healing infrastructure. It has a Plugin included for creating and managing Kubernetes clusters.  More information is in the repository's [README](https://github.com/docker/infrakit/blob/master/pkg/plugin/flavor/kubernetes/README.md) and below is a video of InfraKit bootstrapping and scaling a Kubernetes cluster: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HdL4Wwrwcm8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-You can join the discussions on the `#infrakit` channel on the [Community Slack](http://dockr.ly/community).
+You can join the discussions on the `#infrakit` channel on the [Community Slack](https://dockr.ly/comm-slack).
 
 ### libnetwork
 
@@ -72,7 +72,7 @@ Code: [https://github.com/docker/notary](https://github.com/docker/notary)
 
 Notary aims to make the internet more secure by making it easy for people to publish and verify content. It is used for signing and verification of containers by Docker and other container projects. Both Notary and [The Update Framework](https://theupdateframework.github.io/) that it is based on are in the process of being [donated to the CNCF](https://github.com/cncf/toc/pull/38) and there will be further direct integration with other CNCF projects, such as Kubernetes, soon.
 
-You can join the discussions on the `#notary` channel on the [Community Slack](http://dockr.ly/community).
+You can join the discussions on the `#notary` channel on the [Community Slack](https://dockr.ly/comm-slack).
 
 ### libentitlement
 
