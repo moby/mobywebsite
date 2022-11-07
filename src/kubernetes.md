@@ -32,7 +32,7 @@ There are several ways you can set up a Kubernetes cluster with containerd and c
 
 - Install from the release tarball using kubeadm (see the [instructions](https://github.com/kubernetes-incubator/cri-containerd/blob/master/docs/installation.md))
 
-- Install with LinuxKit on a local VM (see the [instructions](https://github.com/linuxkit/linuxkit/tree/master/projects/kubernetes)).
+- Install with LinuxKit on a local VM (see the [instructions](https://github.com/linuxkit/kubernetes)).
 
 You can join the discussions on the `#containerd` channel on the [Community Slack](https://dockr.ly/comm-slack).
 
@@ -40,7 +40,7 @@ You can join the discussions on the `#containerd` channel on the [Community Slac
 
 Code: [https://github.com/linuxkit/linuxkit](https://github.com/linuxkit/linuxkit)
 
-LinuxKit is a tool for building custom secure, portable and lean operating systems for containers. It was launched at DockerCon 2017 with a demo of Kubernetes, and has continued to improve this support since then. There is a detailed set of [getting started instructions](https://github.com/linuxkit/linuxkit/tree/master/projects/kubernetes) for both Kubernetes with Docker and with containerd. This can be customised further as required.
+LinuxKit is a tool for building custom secure, portable and lean operating systems for containers. It was launched at DockerCon 2017 with a demo of Kubernetes, and has continued to improve this support since then. There is a detailed set of [getting started instructions](https://github.com/linuxkit/kubernetes) for both Kubernetes with Docker and with containerd. This can be customised further as required.
 
 You can see the see the LinuxKit Kubernetes demo from DockerCon in the video below
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hwkqju_BXEo?rel=0&amp;start=6420" frameborder="0" allowfullscreen></iframe>
