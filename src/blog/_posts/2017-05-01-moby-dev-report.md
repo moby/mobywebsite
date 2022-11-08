@@ -2,7 +2,7 @@
 title: Moby Dev Report 2017-05-01
 layout: post
 author: Moby Dev Team
-author-url: https://github.com/moby/moby/blob/master/reports/2017-05-01.md
+author-url: https://github.com/moby/moby/blob/4f3c5b2568c28a4e0fd1b69ec6f2e0a0715d8cf5/reports/2017-05-01.md
 excerpt_separator: <!--more-->
 ---
 

@@ -22,7 +22,7 @@ At the core of Moby is a framework to assemble specialized container systems. It
 
 All Moby components are containers, so creating new components is as easy as building a new OCI-compatible container.
 
-[More information on the Github repo](https://github.com/moby/moby/blob/master/README.md)
+[More information on the Github repo](https://github.com/moby/moby#readme)
 
 ## Principles
 
