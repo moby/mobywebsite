@@ -60,7 +60,7 @@ layout: home
                 <h3>Moby is NOT recommended for the following use cases:</h3>
                 <ul>
                     <li>Application developers looking for an easy way to run their applications in containers. We recommend Docker CE instead.</li>
-                    <li>Enterprise IT and development teams looking for a ready-to-use, commercially supported container platform. We recommend Docker EE instead.</li>
+                    <li>Enterprise IT and development teams looking for a ready-to-use, commercially supported container platform. We recommend Mirantis Container Runtime instead.</li>
                     <li>Anyone curious about containers and looking for an easy way to learn. We recommend the docker.com website instead</li>
                 </ul>
             </div>
