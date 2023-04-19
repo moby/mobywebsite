@@ -8,24 +8,14 @@
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) { 
-    .feature-container {
-      display: none;
-    }
   .primary-nav,
   .primary-nav-filled {
-    // background-color: #000000;
-    // padding: 10px;
-    position: relative;
+    background-color: #000000;
   }
-  // .banner-text {
-  //   padding: 0 30px 10px 10px;
-  // }
   .banner-text p {
     font-size: $base-font-size;
-    // color: red;
   }
   h2 {
-    // font-size: $h2;
     font-size: 16px;
   }
 
@@ -37,7 +27,6 @@
   }
   body.home {
       & p.lead {
-        // background: red;
         font-size: 12px!important;
       }
   }
@@ -50,7 +39,6 @@
     text-align: center;
   }
   .mr-auto {
-    // background: red;
     margin: 0 auto!important;
   }
 }
