@@ -64,32 +64,6 @@ layout: home
                     <li>Anyone curious about containers and looking for an easy way to learn. We recommend the docker.com website instead</li>
                 </ul>
             </div>
-            <div class="gradient-bar-2">
-                <p>You can get started with Moby by running some of the examples assemblies in the <a href="https://github.com/linuxkit/linuxkit" target="_blank">LinuxKit GitHub</a> repository, or in a browser with <a href="http://play-with-moby.com/" target="_blank">Play with Moby</a>.</p>
-            </div>
         </div>
     </div>
 </section>
-<section class="section-city">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 block-alt">
-                <h3>Moby defines the future in specialized container systems building.</h3>
-                <p class="alt"></p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                Watch the video
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jcRR0g0kO4o" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</div>
