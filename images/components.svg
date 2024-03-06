@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="56px" viewBox="0 0 53 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-3" opacity="0.5" transform="translate(6.000000, 3.000000)">
+                <rect id="Boarder" x="0" y="0" width="40" height="40"></rect>
+                <rect id="Rectangle-7-Copy-5" fill="#FFFFFF" fill-rule="nonzero" x="8.33333333" y="26.6666667" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-8" fill="#FFFFFF" fill-rule="nonzero" x="8.33333333" y="17.5" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-6" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="26.6666667" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-9" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="17.5" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-7" fill="#FFFFFF" fill-rule="nonzero" x="26.6666667" y="26.6666667" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-10" fill="#FFFFFF" fill-rule="nonzero" x="26.6666667" y="17.5" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-13" fill="#FFFFFF" fill-rule="nonzero" x="8.33333333" y="8.33333333" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-12" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="8.33333333" width="5" height="5"></rect>
+                <rect id="Rectangle-7-Copy-11" fill="#FFFFFF" fill-rule="nonzero" x="26.6666667" y="8.33333333" width="5" height="5"></rect>
+                <path d="M5,35 L35,35 L35,5 L5,5 L5,35 Z M4.16666667,4.16666667 L35.8333333,4.16666667 L35.8333333,35.8333333 L4.16666667,35.8333333 L4.16666667,4.16666667 Z" id="Rectangle-29" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+            <rect id="Rectangle-11" fill="#FFFFFF" opacity="0.100000001" transform="translate(27.000000, 52.000000) scale(1, -1) translate(-27.000000, -52.000000) " x="4" y="50" width="46" height="4"></rect>
+        </g>
+    </g>
+</svg>

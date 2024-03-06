@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moby projects and SIGs</title>
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+
+<body class="ready">
+
+<nav class="primary-nav navbar navbar-toggleable-md fixed-top navbar-inverse navbar-expand-md">
+    <!-- <div class="container"> -->
+        <button class="toggle navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+        </button>
+        <div class="brand">
+            <a href="/">
+  <svg id="62fd0a44-006e-4f0b-a15a-89faa84d6829" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.2 34.89"><title>moby</title><g id="b15aae01-8804-4f98-8c25-fdaeefa1406f" data-name="Page-1"><g id="3e77fe43-c191-4609-bd1f-fc92b641d8de" data-name="Artboard"><g id="db658e32-7de5-4695-8ac0-c1dafbc7f969" data-name="Group"><g id="1a13e8e5-cf70-4a93-aa29-e6bc1921be6a" data-name="Rectangle"><path d="M5.32,20.44A16.12,16.12,0,1,0,21.44,4.32,16.12,16.12,0,0,0,5.32,20.44ZM4,20.44A17.44,17.44,0,1,1,21.44,37.89,17.44,17.44,0,0,1,4,20.44Z" transform="translate(-4 -3)" style="fill:#fff"/></g><g id="5afc6b6f-2ffa-4176-9b5f-ab9c171c04c9" data-name="Combined-Shape"><path d="M18,36.68a52.79,52.79,0,0,0,3.1-6.28c3.13.09,9.9,0,13.29-6.56.09-.17.26-.52.87-1.81l.35-.69L33.69,20.2C31.6,18.82,26.74,18.3,23,19c-.43-3.54-2.43-6.56-6-9.33L15,8.28l-1.39,2.07a16.05,16.05,0,0,0-2.34,9.76,11.45,11.45,0,0,0,1.82,5.35A14.35,14.35,0,0,1,6.21,27,16.57,16.57,0,1,1,18,36.68Zm-4.07-1.44q-.73-.39-1.38-.79Q13.22,34.88,13.93,35.24Z" transform="translate(-4 -3)" style="fill:#fff"/></g></g><g id="0e76a8cc-554a-48a7-8f33-c1ca2fcc7436" data-name="Moby" style="isolation:isolate"><g style="isolation:isolate"><path d="M60.56,26.86l-3.08-8V28H54.2V14h4.44l3.48,8.86L65.62,14h4.44V28H66.78V18.82l-3.08,8Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M77.38,17.24a5.43,5.43,0,0,1,5.76,5.5,5.49,5.49,0,0,1-5.76,5.52,5.4,5.4,0,0,1-5.7-5.48A5.49,5.49,0,0,1,77.38,17.24Zm0,8.08a2.43,2.43,0,0,0,2.42-2.58,2.4,2.4,0,1,0-4.78,0A2.35,2.35,0,0,0,77.38,25.32Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M87.64,28H84.52V13.54h3.34V18.3a3.88,3.88,0,0,1,2.8-1.06c3,0,5,2.26,5,5.52s-2.12,5.5-5.14,5.5a4,4,0,0,1-2.84-1.08ZM90,25.34a2.29,2.29,0,0,0,2.26-2.56A2.32,2.32,0,0,0,90,20.18c-1.32,0-2.26.94-2.26,2.6A2.31,2.31,0,0,0,90,25.34Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M101.84,31.58H98.68l1.42-3.92L96.18,17.5h3.58l1.86,6,1.94-6H107Z" transform="translate(-4 -3)" style="fill:#fff"/></g></g><g id="cd464abf-e261-4a16-a9b5-77df6384f4d3" data-name="project" style="isolation:isolate"><g style="isolation:isolate"><path d="M111.5,17.62h1v1.92a4.41,4.41,0,0,1,3.86-2.18c3,0,5.06,2.26,5.06,5.42s-2,5.48-5,5.48a4.52,4.52,0,0,1-4-2.24v5.72h-1Zm4.94,9.7c2.26,0,3.94-1.88,3.94-4.54s-1.76-4.48-4-4.48c-2.42,0-3.94,2-3.94,4.48C112.46,25.66,114.28,27.32,116.44,27.32Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M127.88,18.34c-2.46,0-3.2,2-3.2,4.18V28h-1V17.62h1v1.86a3.31,3.31,0,0,1,3.2-2.12Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M134.2,17.36a5.26,5.26,0,0,1,5.32,5.44,5.33,5.33,0,1,1-10.66,0A5.25,5.25,0,0,1,134.2,17.36Zm0,10a4.26,4.26,0,0,0,4.3-4.52,4.3,4.3,0,1,0-8.58,0A4.25,4.25,0,0,0,134.18,27.32Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M141.76,17.62h1v10.8c0,2.58-1.32,3.38-2.86,3.38l-.48,0v-.9l.44,0c1.24,0,1.9-.74,1.9-2.46Zm.5-3.58a.82.82,0,1,1-.82.82A.81.81,0,0,1,142.26,14Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M150,17.36c3,0,4.88,2.22,4.88,5.2V23h-8.84a4,4,0,0,0,4.24,4.36,4.15,4.15,0,0,0,3.58-1.78l.66.46a4.75,4.75,0,0,1-4.24,2.24A5.12,5.12,0,0,1,145,22.84C145,19.44,147.38,17.36,150,17.36Zm3.84,4.74A3.71,3.71,0,0,0,150,18.28a3.85,3.85,0,0,0-3.88,3.82Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M165,19.82a4.61,4.61,0,0,0-3.42-1.52,4.24,4.24,0,0,0-4.14,4.5,4.34,4.34,0,0,0,4.16,4.52,4.63,4.63,0,0,0,3.46-1.6l.36.88a5.08,5.08,0,0,1-3.84,1.66,5.23,5.23,0,0,1-5.2-5.46,5.25,5.25,0,0,1,5.2-5.44,5.17,5.17,0,0,1,3.82,1.58Z" transform="translate(-4 -3)" style="fill:#fff"/><path d="M167.66,15.46h1v2.16h2.44v.9h-2.44v5.84c0,2.26.52,2.84,2.08,2.84l.46,0v.9s-.48,0-.86,0c-1.64,0-2.68-1-2.68-3.12V18.52h-1.28v-.9h1.28Z" transform="translate(-4 -3)" style="fill:#fff"/></g></g></g></g></svg>
+ </a>
+
+          </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="justify-content-end">
+                <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto">
+	<li class="nav-item nav-icon">
+		<a title="GitHub" href="https://github.com/moby/moby#readme">
+		<i class="fa fa-github" aria-hidden="true"></i></a>
+	</li>
+	<li><a class="primary-nav-link nav-item" href="/community">Community</a></li>
+	<li><a class="primary-nav-link nav-item" href="/projects">Projects</a></li>
+	<li><a class="primary-nav-link" href="https://github.com/moby/moby/discussions" target="_blank">Discussions</a></li>
+</ul>
+
+                </ul>
+            </div>
+        </div>
+    <!-- </div> -->
+</nav>
+
+ <div class="header-projects">
+  <div class="banner-text">
+    <h1>Projects</h1>
+    <p>Moby is organized by a set of projects and Special Interest Groups.</p>
+	</div>
+</div>
+
+<div class="container">
+	<div class="project-content">
+   	<div class="lead">
+Moby is an open-source project, created by Docker, to enable and accelerate software containerization.
+</div>
+
+<p><img src="/images/dockercon-2017-eu.000.jpeg" alt="Moby projects" /></p>
+
+<p>The projects themselves provide a “Lego set” of toolkit components, the framework for assembling them into custom container-based systems, and a place for all container enthusiasts and professionals to experiment and exchange ideas.</p>
+
+<p><br /></p>
+
+<h3 id="list-of-moby-projects">List of Moby Projects</h3>
+
+<div class="row">
+  <div class="col align-self-center">
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="containerd/containerd-login" target="_top">
+            <img id="containerd/containerd-image" />
+        </a> <strong class="name">
+            <a target="_top" id="containerd/containerd-name"></a>
+            <sup class="language" id="containerd/containerd-language"></sup>
+        </strong> <span>Created by <a id="containerd/containerd-creator" target="_top"></a></span> <a class="button" id="containerd/containerd-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="containerd/containerd-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="containerd/containerd-forks"></strong>Forks</span> <span class="status"><strong id="containerd/containerd-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/containerd/containerd')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("containerd/containerd-login").href = json.html_url;
+    document.getElementById("containerd/containerd-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("containerd/containerd-name").href = json.html_url;
+    document.getElementById("containerd/containerd-name").innerHTML = json.name;
+    document.getElementById("containerd/containerd-creator").href = json.owner.html_url;
+    document.getElementById("containerd/containerd-creator").innerHTML = json.owner.login;
+    document.getElementById("containerd/containerd-button").href = json.html_url;
+    document.getElementById("containerd/containerd-language").innerHTML = json.language;
+    document.getElementById("containerd/containerd-description").innerHTML = json.description;
+    document.getElementById("containerd/containerd-forks").innerHTML = json.forks;
+    document.getElementById("containerd/containerd-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="opencontainers/runc-login" target="_top">
+            <img id="opencontainers/runc-image" />
+        </a> <strong class="name">
+            <a target="_top" id="opencontainers/runc-name"></a>
+            <sup class="language" id="opencontainers/runc-language"></sup>
+        </strong> <span>Created by <a id="opencontainers/runc-creator" target="_top"></a></span> <a class="button" id="opencontainers/runc-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="opencontainers/runc-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="opencontainers/runc-forks"></strong>Forks</span> <span class="status"><strong id="opencontainers/runc-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/opencontainers/runc')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("opencontainers/runc-login").href = json.html_url;
+    document.getElementById("opencontainers/runc-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("opencontainers/runc-name").href = json.html_url;
+    document.getElementById("opencontainers/runc-name").innerHTML = json.name;
+    document.getElementById("opencontainers/runc-creator").href = json.owner.html_url;
+    document.getElementById("opencontainers/runc-creator").innerHTML = json.owner.login;
+    document.getElementById("opencontainers/runc-button").href = json.html_url;
+    document.getElementById("opencontainers/runc-language").innerHTML = json.language;
+    document.getElementById("opencontainers/runc-description").innerHTML = json.description;
+    document.getElementById("opencontainers/runc-forks").innerHTML = json.forks;
+    document.getElementById("opencontainers/runc-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="theupdateframework/notary-login" target="_top">
+            <img id="theupdateframework/notary-image" />
+        </a> <strong class="name">
+            <a target="_top" id="theupdateframework/notary-name"></a>
+            <sup class="language" id="theupdateframework/notary-language"></sup>
+        </strong> <span>Created by <a id="theupdateframework/notary-creator" target="_top"></a></span> <a class="button" id="theupdateframework/notary-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="theupdateframework/notary-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="theupdateframework/notary-forks"></strong>Forks</span> <span class="status"><strong id="theupdateframework/notary-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/theupdateframework/notary')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("theupdateframework/notary-login").href = json.html_url;
+    document.getElementById("theupdateframework/notary-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("theupdateframework/notary-name").href = json.html_url;
+    document.getElementById("theupdateframework/notary-name").innerHTML = json.name;
+    document.getElementById("theupdateframework/notary-creator").href = json.owner.html_url;
+    document.getElementById("theupdateframework/notary-creator").innerHTML = json.owner.login;
+    document.getElementById("theupdateframework/notary-button").href = json.html_url;
+    document.getElementById("theupdateframework/notary-language").innerHTML = json.language;
+    document.getElementById("theupdateframework/notary-description").innerHTML = json.description;
+    document.getElementById("theupdateframework/notary-forks").innerHTML = json.forks;
+    document.getElementById("theupdateframework/notary-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="linuxkit/linuxkit-login" target="_top">
+            <img id="linuxkit/linuxkit-image" />
+        </a> <strong class="name">
+            <a target="_top" id="linuxkit/linuxkit-name"></a>
+            <sup class="language" id="linuxkit/linuxkit-language"></sup>
+        </strong> <span>Created by <a id="linuxkit/linuxkit-creator" target="_top"></a></span> <a class="button" id="linuxkit/linuxkit-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="linuxkit/linuxkit-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="linuxkit/linuxkit-forks"></strong>Forks</span> <span class="status"><strong id="linuxkit/linuxkit-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/linuxkit/linuxkit')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("linuxkit/linuxkit-login").href = json.html_url;
+    document.getElementById("linuxkit/linuxkit-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("linuxkit/linuxkit-name").href = json.html_url;
+    document.getElementById("linuxkit/linuxkit-name").innerHTML = json.name;
+    document.getElementById("linuxkit/linuxkit-creator").href = json.owner.html_url;
+    document.getElementById("linuxkit/linuxkit-creator").innerHTML = json.owner.login;
+    document.getElementById("linuxkit/linuxkit-button").href = json.html_url;
+    document.getElementById("linuxkit/linuxkit-language").innerHTML = json.language;
+    document.getElementById("linuxkit/linuxkit-description").innerHTML = json.description;
+    document.getElementById("linuxkit/linuxkit-forks").innerHTML = json.forks;
+    document.getElementById("linuxkit/linuxkit-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/datakit-login" target="_top">
+            <img id="moby/datakit-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/datakit-name"></a>
+            <sup class="language" id="moby/datakit-language"></sup>
+        </strong> <span>Created by <a id="moby/datakit-creator" target="_top"></a></span> <a class="button" id="moby/datakit-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/datakit-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/datakit-forks"></strong>Forks</span> <span class="status"><strong id="moby/datakit-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/datakit')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/datakit-login").href = json.html_url;
+    document.getElementById("moby/datakit-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/datakit-name").href = json.html_url;
+    document.getElementById("moby/datakit-name").innerHTML = json.name;
+    document.getElementById("moby/datakit-creator").href = json.owner.html_url;
+    document.getElementById("moby/datakit-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/datakit-button").href = json.html_url;
+    document.getElementById("moby/datakit-language").innerHTML = json.language;
+    document.getElementById("moby/datakit-description").innerHTML = json.description;
+    document.getElementById("moby/datakit-forks").innerHTML = json.forks;
+    document.getElementById("moby/datakit-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/vpnkit-login" target="_top">
+            <img id="moby/vpnkit-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/vpnkit-name"></a>
+            <sup class="language" id="moby/vpnkit-language"></sup>
+        </strong> <span>Created by <a id="moby/vpnkit-creator" target="_top"></a></span> <a class="button" id="moby/vpnkit-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/vpnkit-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/vpnkit-forks"></strong>Forks</span> <span class="status"><strong id="moby/vpnkit-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/vpnkit')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/vpnkit-login").href = json.html_url;
+    document.getElementById("moby/vpnkit-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/vpnkit-name").href = json.html_url;
+    document.getElementById("moby/vpnkit-name").innerHTML = json.name;
+    document.getElementById("moby/vpnkit-creator").href = json.owner.html_url;
+    document.getElementById("moby/vpnkit-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/vpnkit-button").href = json.html_url;
+    document.getElementById("moby/vpnkit-language").innerHTML = json.language;
+    document.getElementById("moby/vpnkit-description").innerHTML = json.description;
+    document.getElementById("moby/vpnkit-forks").innerHTML = json.forks;
+    document.getElementById("moby/vpnkit-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="docker/swarmkit-login" target="_top">
+            <img id="docker/swarmkit-image" />
+        </a> <strong class="name">
+            <a target="_top" id="docker/swarmkit-name"></a>
+            <sup class="language" id="docker/swarmkit-language"></sup>
+        </strong> <span>Created by <a id="docker/swarmkit-creator" target="_top"></a></span> <a class="button" id="docker/swarmkit-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="docker/swarmkit-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="docker/swarmkit-forks"></strong>Forks</span> <span class="status"><strong id="docker/swarmkit-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/docker/swarmkit')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("docker/swarmkit-login").href = json.html_url;
+    document.getElementById("docker/swarmkit-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("docker/swarmkit-name").href = json.html_url;
+    document.getElementById("docker/swarmkit-name").innerHTML = json.name;
+    document.getElementById("docker/swarmkit-creator").href = json.owner.html_url;
+    document.getElementById("docker/swarmkit-creator").innerHTML = json.owner.login;
+    document.getElementById("docker/swarmkit-button").href = json.html_url;
+    document.getElementById("docker/swarmkit-language").innerHTML = json.language;
+    document.getElementById("docker/swarmkit-description").innerHTML = json.description;
+    document.getElementById("docker/swarmkit-forks").innerHTML = json.forks;
+    document.getElementById("docker/swarmkit-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="docker/libnetwork-login" target="_top">
+            <img id="docker/libnetwork-image" />
+        </a> <strong class="name">
+            <a target="_top" id="docker/libnetwork-name"></a>
+            <sup class="language" id="docker/libnetwork-language"></sup>
+        </strong> <span>Created by <a id="docker/libnetwork-creator" target="_top"></a></span> <a class="button" id="docker/libnetwork-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="docker/libnetwork-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="docker/libnetwork-forks"></strong>Forks</span> <span class="status"><strong id="docker/libnetwork-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/docker/libnetwork')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("docker/libnetwork-login").href = json.html_url;
+    document.getElementById("docker/libnetwork-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("docker/libnetwork-name").href = json.html_url;
+    document.getElementById("docker/libnetwork-name").innerHTML = json.name;
+    document.getElementById("docker/libnetwork-creator").href = json.owner.html_url;
+    document.getElementById("docker/libnetwork-creator").innerHTML = json.owner.login;
+    document.getElementById("docker/libnetwork-button").href = json.html_url;
+    document.getElementById("docker/libnetwork-language").innerHTML = json.language;
+    document.getElementById("docker/libnetwork-description").innerHTML = json.description;
+    document.getElementById("docker/libnetwork-forks").innerHTML = json.forks;
+    document.getElementById("docker/libnetwork-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/buildkit-login" target="_top">
+            <img id="moby/buildkit-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/buildkit-name"></a>
+            <sup class="language" id="moby/buildkit-language"></sup>
+        </strong> <span>Created by <a id="moby/buildkit-creator" target="_top"></a></span> <a class="button" id="moby/buildkit-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/buildkit-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/buildkit-forks"></strong>Forks</span> <span class="status"><strong id="moby/buildkit-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/buildkit')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/buildkit-login").href = json.html_url;
+    document.getElementById("moby/buildkit-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/buildkit-name").href = json.html_url;
+    document.getElementById("moby/buildkit-name").innerHTML = json.name;
+    document.getElementById("moby/buildkit-creator").href = json.owner.html_url;
+    document.getElementById("moby/buildkit-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/buildkit-button").href = json.html_url;
+    document.getElementById("moby/buildkit-language").innerHTML = json.language;
+    document.getElementById("moby/buildkit-description").innerHTML = json.description;
+    document.getElementById("moby/buildkit-forks").innerHTML = json.forks;
+    document.getElementById("moby/buildkit-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/hyperkit-login" target="_top">
+            <img id="moby/hyperkit-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/hyperkit-name"></a>
+            <sup class="language" id="moby/hyperkit-language"></sup>
+        </strong> <span>Created by <a id="moby/hyperkit-creator" target="_top"></a></span> <a class="button" id="moby/hyperkit-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/hyperkit-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/hyperkit-forks"></strong>Forks</span> <span class="status"><strong id="moby/hyperkit-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/hyperkit')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/hyperkit-login").href = json.html_url;
+    document.getElementById("moby/hyperkit-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/hyperkit-name").href = json.html_url;
+    document.getElementById("moby/hyperkit-name").innerHTML = json.name;
+    document.getElementById("moby/hyperkit-creator").href = json.owner.html_url;
+    document.getElementById("moby/hyperkit-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/hyperkit-button").href = json.html_url;
+    document.getElementById("moby/hyperkit-language").innerHTML = json.language;
+    document.getElementById("moby/hyperkit-description").innerHTML = json.description;
+    document.getElementById("moby/hyperkit-forks").innerHTML = json.forks;
+    document.getElementById("moby/hyperkit-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/moby-login" target="_top">
+            <img id="moby/moby-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/moby-name"></a>
+            <sup class="language" id="moby/moby-language"></sup>
+        </strong> <span>Created by <a id="moby/moby-creator" target="_top"></a></span> <a class="button" id="moby/moby-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/moby-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/moby-forks"></strong>Forks</span> <span class="status"><strong id="moby/moby-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/moby')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/moby-login").href = json.html_url;
+    document.getElementById("moby/moby-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/moby-name").href = json.html_url;
+    document.getElementById("moby/moby-name").innerHTML = json.name;
+    document.getElementById("moby/moby-creator").href = json.owner.html_url;
+    document.getElementById("moby/moby-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/moby-button").href = json.html_url;
+    document.getElementById("moby/moby-language").innerHTML = json.language;
+    document.getElementById("moby/moby-description").innerHTML = json.description;
+    document.getElementById("moby/moby-forks").innerHTML = json.forks;
+    document.getElementById("moby/moby-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/tool-login" target="_top">
+            <img id="moby/tool-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/tool-name"></a>
+            <sup class="language" id="moby/tool-language"></sup>
+        </strong> <span>Created by <a id="moby/tool-creator" target="_top"></a></span> <a class="button" id="moby/tool-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/tool-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/tool-forks"></strong>Forks</span> <span class="status"><strong id="moby/tool-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/tool')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/tool-login").href = json.html_url;
+    document.getElementById("moby/tool-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/tool-name").href = json.html_url;
+    document.getElementById("moby/tool-name").innerHTML = json.name;
+    document.getElementById("moby/tool-creator").href = json.owner.html_url;
+    document.getElementById("moby/tool-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/tool-button").href = json.html_url;
+    document.getElementById("moby/tool-language").innerHTML = json.language;
+    document.getElementById("moby/tool-description").innerHTML = json.description;
+    document.getElementById("moby/tool-forks").innerHTML = json.forks;
+    document.getElementById("moby/tool-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="moby/libentitlement-login" target="_top">
+            <img id="moby/libentitlement-image" />
+        </a> <strong class="name">
+            <a target="_top" id="moby/libentitlement-name"></a>
+            <sup class="language" id="moby/libentitlement-language"></sup>
+        </strong> <span>Created by <a id="moby/libentitlement-creator" target="_top"></a></span> <a class="button" id="moby/libentitlement-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="moby/libentitlement-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="moby/libentitlement-forks"></strong>Forks</span> <span class="status"><strong id="moby/libentitlement-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/moby/libentitlement')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("moby/libentitlement-login").href = json.html_url;
+    document.getElementById("moby/libentitlement-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("moby/libentitlement-name").href = json.html_url;
+    document.getElementById("moby/libentitlement-name").innerHTML = json.name;
+    document.getElementById("moby/libentitlement-creator").href = json.owner.html_url;
+    document.getElementById("moby/libentitlement-creator").innerHTML = json.owner.login;
+    document.getElementById("moby/libentitlement-button").href = json.html_url;
+    document.getElementById("moby/libentitlement-language").innerHTML = json.language;
+    document.getElementById("moby/libentitlement-description").innerHTML = json.description;
+    document.getElementById("moby/libentitlement-forks").innerHTML = json.forks;
+    document.getElementById("moby/libentitlement-stars").innerHTML = json.watchers_count;
+    });
+</script>
+    <div class="github-card repo-card">
+      <div class="header">
+<a class="avatar" id="distribution/distribution-login" target="_top">
+            <img id="distribution/distribution-image" />
+        </a> <strong class="name">
+            <a target="_top" id="distribution/distribution-name"></a>
+            <sup class="language" id="distribution/distribution-language"></sup>
+        </strong> <span>Created by <a id="distribution/distribution-creator" target="_top"></a></span> <a class="button" id="distribution/distribution-button" target="_top">Star</a>
+      </div>
+      <div class="content" id="distribution/distribution-description">
+        <p></p>
+      </div>
+      <div class="footer">
+<span class="status"><strong id="distribution/distribution-forks"></strong>Forks</span> <span class="status"><strong id="distribution/distribution-stars"></strong>Stars</span>
+      </div>
+    </div>
+    <script>
+fetch('https://api.github.com/repos/distribution/distribution')
+  .then((response) => response.json())
+  .then((json) => {
+    document.getElementById("distribution/distribution-login").href = json.html_url;
+    document.getElementById("distribution/distribution-image").src = json.owner.avatar_url + "&s48";
+    document.getElementById("distribution/distribution-name").href = json.html_url;
+    document.getElementById("distribution/distribution-name").innerHTML = json.name;
+    document.getElementById("distribution/distribution-creator").href = json.owner.html_url;
+    document.getElementById("distribution/distribution-creator").innerHTML = json.owner.login;
+    document.getElementById("distribution/distribution-button").href = json.html_url;
+    document.getElementById("distribution/distribution-language").innerHTML = json.language;
+    document.getElementById("distribution/distribution-description").innerHTML = json.description;
+    document.getElementById("distribution/distribution-forks").innerHTML = json.forks;
+    document.getElementById("distribution/distribution-stars").innerHTML = json.watchers_count;
+    });
+</script>
+  </div>
+</div>
+
+<p><em>Note: <a href="https://github.com/opencontainers/runc">runc</a> is owned by <a href="https://www.opencontainers.org">Open Container Initiative (OCI)</a>. <a href="https://github.com/containerd/containerd">containerd</a> and <a href="https://github.com/theupdateframework/notary">Notary</a> are owned by <a href="https://www.cncf.io">Cloud Native Computing Foundation (CNCF)</a>.</em></p>
+
+	</div>
+</div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="copyright">
+            Copyright © 2024, Moby Project
+        </div>
+        <div class="footer-links">
+            <ul class="navbar-nav mr-auto justify-content-end">
+	<li class="nav-item nav-icon">
+		<a  title="GitHub" href="https://github.com/moby/moby#readme">
+			<i class="fa fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	<li><a href="/community">Community</a></li>
+	<li><a href="/projects">Projects</a></li>
+</ul>
+
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/tether.min.js"></script>
+<script src="/js/main.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    
+    ga('create', 'UA-6096819-28', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>
+

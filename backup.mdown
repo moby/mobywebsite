@@ -1,0 +1,74 @@
+## News
+
+* [The Moby Project is announced at DockerCon 2017](https://blog.docker.com/2017/04/introducing-the-moby-project/)
+* [A Moby Project blog is now available](/blog)
+
+
+## About Moby
+
+Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms.
+
+Going forward, Docker will be assembled using Moby, see [Moby and Docker](#moby-and-docker) for more details.
+
+<img src="images/moby-collaboration.png" alt="Moby collaboration">
+
+## Overview
+
+At the core of Moby is a framework to assemble specialized container systems. It provides:
+
+- A library of containerized components for all vital aspects of a container system: OS, container runtime, orchestration, infrastructure management, networking, storage, security, build, image distribution, etc.
+- Tools to assemble the components into runnable artifacts for a variety of platforms and architectures: bare metal (both x86 and Arm); executables for Linux, Mac and Windows; VM images for popular cloud and virtualization providers.
+- A set of reference assemblies which can be used as-is, modified, or used as inspiration to create your own.
+
+All Moby components are containers, so creating new components is as easy as building a new OCI-compatible container.
+
+[More information on the Github repo](https://github.com/moby/moby#readme)
+
+## Principles
+
+Moby is an open project guided by strong principles, but modular, flexible and without too strong an opinion on user experience, so it is open to the community to help set its direction.
+
+The guiding principles are:
+
+- Batteries included but swappable: Moby includes enough components to build fully featured container system, but its modular architecture ensures that most of the components can be swapped by different implementations.
+- Usable security: Moby will provide secure defaults without compromising usability.
+- Container centric: Moby is built with containers, for running containers.
+
+With Moby, you should be able to describe all the components of your distributed application, from the high-level configuration files down to the kernel you would like to use and build and deploy it easily.
+
+Moby uses [containerd](https://github.com/containerd/containerd) as the default container runtime.
+
+## Audience
+
+Moby is recommended for anyone who wants to assemble a container-based system, this includes:
+
+- Hackers who want to customize or patch their Docker build
+- System engineers or integrators building a container system
+- Infrastructure providers looking to adapt existing container systems to their environment
+- Container enthusiasts who want to experiment with the latest container tech
+- Open-source developers looking to test their project in a variety of different systems
+- Anyone curious about Docker internals and how it’s built
+
+Moby is NOT recommended for:
+
+- Application developers looking for an easy way to run their applications in containers. We recommend Docker CE instead.
+- Enterprise IT and development teams looking for a ready-to-use, commercially supported container platform. We recommend Docker EE instead.
+- Anyone curious about containers and looking for an easy way to learn. We recommend the docker.com website instead.
+
+## Getting started
+
+You can get started with Moby by running some of the examples assemblies in the [LinuxKit GitHub repository](https://github.com/linuxkit/linuxkit/tree/master/examples).
+
+## Moby and Docker
+
+Docker is, and will remain, an open source product that lets you build, ship and run containers. It is staying exactly the same from a user's perspective. Users can download Docker from the [docker.com](https://www.docker.com/) website.
+
+Work has been ongoing to break Docker into modular components for some time, with runc and containerd as examples. Containerd for example has been donated to the CNCF. We are now completing this work with the goal being that the monolithic docker repo eventually ceases to exist, instead being assembled from a set of components.
+
+Moby is a project which provides a "Lego set" of dozens of components, the framework for assembling them into custom container-based systems, and a place for all container enthusiasts to experiment and exchange ideas.
+
+Docker the product will be assembled from components that are packaged by the Moby project.
+
+The Moby project provides a command-line tool called moby which assembles components. Currently it assembles bootable OS images, but soon it will also be used by Docker for assembling Docker out of components, many of which will be independent projects.
+
+As the Docker Engine continues to be split up into more components the Moby project will also be the home for those components until a more appropriate location is found.

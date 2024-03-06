@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "=> Invalidating the cloudfront cache"
+sleep 60
+docker run --rm \
+-e "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}" \
+-e "AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}" \
+chanezon/awscli \
+cloudfront create-invalidation --distribution-id EAWWXYI0CAOX0 \
+--paths "/*"
